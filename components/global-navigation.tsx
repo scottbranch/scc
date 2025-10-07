@@ -3,10 +3,12 @@ import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function GlobalNavigation() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <nav className="top-nav w-full bg-white border-b border-gray-100">
@@ -27,7 +29,7 @@ export default function GlobalNavigation() {
 
           {/* Navigation Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <div
+            {/* <div
               className="relative group"
               onMouseEnter={() => setOpenDropdown('staff')}
               onMouseLeave={() => setOpenDropdown(null)}
@@ -61,7 +63,7 @@ export default function GlobalNavigation() {
                   </a>
                 </div>
               )}
-            </div>
+            </div> */}
 
             <div
               className="relative group"
@@ -76,7 +78,7 @@ export default function GlobalNavigation() {
                 <ChevronDown className="w-4 h-4" />
               </a>
               {openDropdown === 'programs' && (
-                <div className="absolute top-full left-0 w-48 bg-white border border-gray-200 rounded-md shadow-lg z-50 group-hover:block hidden">
+                <div className="absolute top-full left-0 w-48 bg-white border border-gray-200 rounded-md shadow-lg z-50 group-hover:block hidden overflow-hidden">
                   <a
                     href="/star-fish-program"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
@@ -95,47 +97,83 @@ export default function GlobalNavigation() {
                   >
                     Surfers program
                   </a>
-                  <a
+                  {/* <a
                     href="/sailors-program"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     Kindergarten - Sailors program
-                  </a>
+                  </a> */}
                 </div>
               )}
             </div>
 
             <div
               className="relative group"
-              onMouseEnter={() => setOpenDropdown('staff')}
+              onMouseEnter={() => setOpenDropdown('about')}
               onMouseLeave={() => setOpenDropdown(null)}
             >
               <a
-                href="/scc-experience"
+                href="#"
                 className="flex items-center space-x-1 text-gray-700 hover:text-gray-900 transition-colors font-medium pb-2"
               >
-                <span>SCC Experience</span>
+                <span>About</span>
+                <ChevronDown className="w-4 h-4" />
               </a>
+              {openDropdown === 'about' && (
+                <div className="absolute top-full left-0 w-48 bg-white border border-gray-200 rounded-md shadow-lg z-50 group-hover:block hidden overflow-hidden">
+                  <a
+                    href="/scc-experience"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    SCC Experience
+                  </a>
+                  <a
+                    href="/outdoor-learning-labs"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Outdoor Learning Labs
+                  </a>
+                  <a
+                    href="/events"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Events
+                  </a>
+                  <a
+                    href="/testimonials"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Testimonials
+                  </a>
+                  {/* <a
+                    href="/sailors-program"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Kindergarten - Sailors program
+                  </a> */}
+                </div>
+              )}
             </div>
 
             {/* Regular Navigation Links */}
-            <a
+            {/* <a
               href="/chapel"
               className="text-gray-700 hover:text-gray-900 transition-colors font-medium pb-2"
             >
               Chapel
-            </a>
-            <a
-              href="/events"
-              className="text-gray-700 hover:text-gray-900 transition-colors font-medium pb-2"
-            >
-              Events
-            </a>
+            </a> */}
             <a
               href="/contact"
               className="text-gray-700 hover:text-gray-900 transition-colors font-medium pb-2"
             >
               Contact Us
+            </a>
+
+            <a
+              href="/schedule-a-tour"
+              className="border border-gray-300 text-gray-700 px-8 py-2 rounded-md font-zen-maru-gothic font-medium hover:border-gray-400 transition-colors mr-4"
+            >
+              Schedule a Tour
             </a>
 
             {/* Apply Button */}
@@ -179,50 +217,6 @@ export default function GlobalNavigation() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
             <div className="px-4 py-4 space-y-4">
-              {/* Mobile Staff Dropdown */}
-              <div className="space-y-2">
-                <button
-                  onClick={() =>
-                    setOpenDropdown(
-                      openDropdown === 'mobile-staff' ? null : 'mobile-staff'
-                    )
-                  }
-                  className="flex items-center justify-between w-full text-left text-gray-700 hover:text-gray-900 transition-colors font-medium py-2"
-                >
-                  <span>SCC Staff</span>
-                  <ChevronDown
-                    className={`w-4 h-4 transition-transform ${
-                      openDropdown === 'mobile-staff' ? 'rotate-180' : ''
-                    }`}
-                  />
-                </button>
-                {openDropdown === 'mobile-staff' && (
-                  <div className="ml-4 space-y-2 border-l-2 border-gray-200 pl-4">
-                    <a
-                      href="/meet-the-starfish-teachers"
-                      className="block text-sm text-gray-600 hover:text-gray-900 py-1"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      Meet the 2-3 year old teachers
-                    </a>
-                    <a
-                      href="/meet-the-seaturtle-teachers"
-                      className="block text-sm text-gray-600 hover:text-gray-900 py-1"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      Meet the 3-4 year old teachers
-                    </a>
-                    <a
-                      href="/meet-the-surfer-teachers"
-                      className="block text-sm text-gray-600 hover:text-gray-900 py-1"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      Meet the Pre-K teachers
-                    </a>
-                  </div>
-                )}
-              </div>
-
               {/* Mobile Programs Dropdown */}
               <div className="space-y-2">
                 <button
@@ -285,13 +279,6 @@ export default function GlobalNavigation() {
                 SCC Experience
               </a>
               <a
-                href="/chapel"
-                className="block text-gray-700 hover:text-gray-900 transition-colors font-medium py-2"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Chapel
-              </a>
-              <a
                 href="/events"
                 className="block text-gray-700 hover:text-gray-900 transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
@@ -309,8 +296,19 @@ export default function GlobalNavigation() {
               {/* Mobile Apply Button */}
               <div className="pt-4 border-t border-gray-200">
                 <Button
+                  onClick={() => router.push('/schedule-a-tour')}
+                  className="w-full bg-white border text-gray-700 px-6 font-medium mb-3 hover:bg-gray-100"
+                >
+                  Request a Tour
+                </Button>
+                <Button
+                  onClick={() =>
+                    window.open(
+                      'https://www.surfcitychristian.com/_files/ugd/12d36c_f06dc94b45824784b8570cfeea0bc65d.docx?dn=new%20family%202025-2026%20Family%20Application%20.docx',
+                      '_blank'
+                    )
+                  }
                   className="w-full bg-[#7eb5d9] hover:bg-[#6ba3c7] text-white px-6 font-medium"
-                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Apply
                 </Button>

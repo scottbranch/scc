@@ -122,10 +122,10 @@ export default function Home() {
                     New Family Application
                   </a>
                   <a
-                    href="tel:+1-714-8460316"
+                    href="/schedule-a-tour"
                     className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-md font-zen-maru-gothic font-medium hover:border-gray-400 transition-colors"
                   >
-                    Call us
+                    Schedule a Tour
                   </a>
                 </div>
               </div>
@@ -766,6 +766,20 @@ export default function Home() {
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
               </div>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 mt-10">
+              <a
+                href="tel:+1-714-8460316"
+                className="bg-[#7eb5d9] text-white px-8 py-3 rounded-md font-zen-maru-gothic font-medium hover:bg-[#6ba4c8] transition-colors"
+              >
+                Schedule a Tour
+              </a>
+              <a
+                href="/contact"
+                className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-md font-zen-maru-gothic font-medium hover:border-gray-400 transition-colors"
+              >
+                Contact Us
+              </a>
             </div>
           </div>
         </section>
