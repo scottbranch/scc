@@ -85,11 +85,19 @@ export default function ScheduleATourPage() {
                     required
                   >
                     <option value="">Select a schedule</option>
-                    <option value="full-time">Full Time (Monday - Friday)</option>
-                    <option value="part-time-mwf">Part Time (Monday, Wednesday, Friday)</option>
-                    <option value="part-time-tth">Part Time (Tuesday, Thursday)</option>
+                    <option value="full-time">
+                      Full Time (Monday - Friday)
+                    </option>
+                    <option value="part-time-mwf">
+                      Part Time (Monday, Wednesday, Friday)
+                    </option>
+                    <option value="part-time-tth">
+                      Part Time (Tuesday, Thursday)
+                    </option>
                     <option value="half-day">Half Day</option>
-                    <option value="other">Other (please specify in comments)</option>
+                    <option value="other">
+                      Other (please specify in comments)
+                    </option>
                   </select>
                 </div>
 
@@ -166,7 +174,9 @@ export default function ScheduleATourPage() {
                 WHAT TO EXPECT
               </h2>
               <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
-                During your tour, you'll have the opportunity to see our classrooms, meet our teachers, and learn more about our Christ-centered approach to early childhood education.
+                During your tour, you'll have the opportunity to see our
+                classrooms, meet our teachers, and learn more about our
+                Christ-centered approach to early childhood education.
               </p>
             </div>
 
@@ -174,13 +184,16 @@ export default function ScheduleATourPage() {
               <AnimatedSection animation="scaleIn" delay={100}>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-[#7eb5d9] rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-white font-zen-maru-gothic font-bold text-xl">1</span>
+                    <span className="text-white font-zen-maru-gothic font-bold text-xl">
+                      1
+                    </span>
                   </div>
                   <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-4">
                     CAMPUS TOUR
                   </h3>
                   <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                    Explore our safe, nurturing environment including classrooms, playground, and chapel.
+                    Explore our safe, nurturing environment including
+                    classrooms, playground, and chapel.
                   </p>
                 </div>
               </AnimatedSection>
@@ -188,13 +201,16 @@ export default function ScheduleATourPage() {
               <AnimatedSection animation="scaleIn" delay={200}>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-[#7eb5d9] rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-white font-zen-maru-gothic font-bold text-xl">2</span>
+                    <span className="text-white font-zen-maru-gothic font-bold text-xl">
+                      2
+                    </span>
                   </div>
                   <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-4">
                     MEET THE STAFF
                   </h3>
                   <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                    Connect with our dedicated teachers and learn about their passion for early childhood education.
+                    Connect with our dedicated teachers and learn about their
+                    passion for early childhood education.
                   </p>
                 </div>
               </AnimatedSection>
@@ -202,13 +218,16 @@ export default function ScheduleATourPage() {
               <AnimatedSection animation="scaleIn" delay={300}>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-[#7eb5d9] rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-white font-zen-maru-gothic font-bold text-xl">3</span>
+                    <span className="text-white font-zen-maru-gothic font-bold text-xl">
+                      3
+                    </span>
                   </div>
                   <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-4">
                     CURRICULUM OVERVIEW
                   </h3>
                   <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                    Discover our age-appropriate programs and Christian-based learning approach.
+                    Discover our age-appropriate programs and Christian-based
+                    learning approach.
                   </p>
                 </div>
               </AnimatedSection>
@@ -216,13 +235,16 @@ export default function ScheduleATourPage() {
               <AnimatedSection animation="scaleIn" delay={400}>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-[#7eb5d9] rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-white font-zen-maru-gothic font-bold text-xl">4</span>
+                    <span className="text-white font-zen-maru-gothic font-bold text-xl">
+                      4
+                    </span>
                   </div>
                   <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-4">
                     Q&A SESSION
                   </h3>
                   <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                    Ask questions about enrollment, policies, and anything else you'd like to know.
+                    Ask questions about enrollment, policies, and anything else
+                    you'd like to know.
                   </p>
                 </div>
               </AnimatedSection>

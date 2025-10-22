@@ -80,22 +80,40 @@ export default function GlobalNavigation() {
               {openDropdown === 'programs' && (
                 <div className="absolute top-full left-0 w-48 bg-white border border-gray-200 rounded-md shadow-lg z-50 group-hover:block hidden overflow-hidden">
                   <a
+                    href="/guppies-program"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Guppies
+                  </a>
+                  <a
                     href="/star-fish-program"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
-                    Starfish program
+                    Starfish
                   </a>
                   <a
                     href="/sea-turtle-program"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
-                    Sea turtle program
+                    Sea Turtles
+                  </a>
+                  <a
+                    href="/sea-otters-program"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Sea Otters
                   </a>
                   <a
                     href="/surfers-program"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
-                    Surfers program
+                    Surfers
+                  </a>
+                  <a
+                    href="/sailors-program"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Sailors
                   </a>
                   {/* <a
                     href="/sailors-program"
@@ -134,10 +152,10 @@ export default function GlobalNavigation() {
                     Outdoor Learning Labs
                   </a>
                   <a
-                    href="/events"
+                    href="/scc-traditions"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
-                    Events
+                    SCC Traditions
                   </a>
                   <a
                     href="/testimonials"
@@ -178,7 +196,7 @@ export default function GlobalNavigation() {
 
             {/* Apply Button */}
             <a
-              href="https://www.surfcitychristian.com/_files/ugd/12d36c_f06dc94b45824784b8570cfeea0bc65d.docx?dn=new%20family%202025-2026%20Family%20Application%20.docx"
+              href="/new-family-2025-2026-Family-Application.docx"
               className="bg-[#7eb5d9] text-white px-8 py-2 rounded-md font-zen-maru-gothic font-medium hover:bg-[#6ba4c8] transition-colors"
             >
               <span>Apply</span>

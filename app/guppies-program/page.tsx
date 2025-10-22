@@ -1,3 +1,5 @@
+'use client';
+
 import { GlobalNavigation } from '@/components/global-navigation';
 
 export default function StarFishProgramPage() {
@@ -7,7 +9,7 @@ export default function StarFishProgramPage() {
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-ovo text-2xl lg:text-6xl font-normal text-black leading-tight">
-            SURFERS
+            GUPPIES
             <br />
             PROGRAM
           </h1>
@@ -20,38 +22,39 @@ export default function StarFishProgramPage() {
             {/* Left Column - Content */}
             <div className="space-y-6">
               <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black leading-tight">
-                JOIN OUR SURFERS PROGRAM
+                JOIN OUR GUPPIES PROGRAM
               </h2>
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
                   <b>
-                    Children must be 4 before September 1st and potty trained to
-                    enter this program.
+                    Children must be 3 years old before September 1st and potty
+                    trained.
                   </b>
                 </p>
 
                 <p>
-                  Children in this program are planning on attending
-                  Kindergarten in the Fall of 2023. Our SCC Surfers spend this
-                  foundational year exploring the world of letter and number
-                  mastery, Alpha Friends Phonics Program, Bible words and Bible
-                  law memorization, word families, sight words, Scholastic
-                  Reading Program, and Journal Writing Program. This is the year
-                  reading and writing takes off, good choices are the "norm",
-                  the seeds of the Holy Spirit are planted, and we see
-                  transformations happen before our eyes. SCC Surfers leave this
-                  program thoroughly prepared academically, emotionally,
-                  socially, and spiritually for the next step to elementary
-                  school.
+                  Children explore the world of personal responsibility,
+                  cooperative play, empathy, friendships, expressive language,
+                  the gift of sharing, prayer, the fruits of the spirit, and a
+                  love for God’s Word. During this fundamental year, our Sea
+                  Turtles begin their life long journey and love for literature,
+                  music, story time, art and writing. Tracing, journaling,
+                  conquering scissors, coloring, Handwriting without tears
+                  program, gluing and creating personal masterpieces is a daily
+                  adventure. Our Sea Turtles take on the challenges of letter,
+                  number, color, and shape recognition and make social and
+                  emotional milestones. Love, laughter, friendships, growth,
+                  independence, and play are daily blessings in our Sea Turtle
+                  Program.
                 </p>
               </div>
 
               <a
-                href="https://www.surfcitychristian.com/_files/ugd/12d36c_02788327221040a89f807f72042283e7.pdf"
+                href="https://www.surfcitychristian.com/_files/ugd/12d36c_4b7261a8f5614b52bdeeb329f0d8c281.pdf"
                 className="bg-[#7eb5d9] text-white px-6 py-3 rounded-md font-zen-maru hover:bg-[#6ba5cc] transition-colors"
               >
-                View our Pre-K Flyer
+                View our Sea Turtle Flyer
               </a>
             </div>
 
@@ -78,7 +81,7 @@ export default function StarFishProgramPage() {
       <section className="py-16 px-6 bg-[#e5f0f7]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black mb-12 uppercase">
-            Our Surfers Program Hours​
+            Our Sea Turtle Program Hours​
           </h2>
 
           <div className="space-y-8">
@@ -86,7 +89,9 @@ export default function StarFishProgramPage() {
               <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-2">
                 Half Day
               </h3>
-              <p className="font-zen-maru text-gray-700 text-lg">8:30am-12pm</p>
+              <p className="font-zen-maru text-gray-700 text-lg">
+                8:15am-11:45am
+              </p>
             </div>
 
             <div>
@@ -118,13 +123,44 @@ export default function StarFishProgramPage() {
         </div>
       </section>
 
+      {/* Hero Section */}
+      {/* <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="font-ovo uppercase text-4xl lg:text-6xl font-normal text-black leading-tight text-balance mb-8">
+            Meet our 3-4 year old teachers
+          </h1>
+          <p className="font-zen-maru-gothic text-lg lg:text-xl text-gray-700 leading-relaxed text-balance">
+            This special team will soon become your child’s favorite teachers!
+            Get ready for a wonderful year and fantastic SCC experience. We are
+            absolutely thrilled and beyond blessed these ladies will be teaching
+            and caring for your children this year.{' '}
+          </p>
+          <p className="font-zen-maru-gothic text-lg lg:text-xl text-gray-700 leading-relaxed text-balance mt-4">
+            These ladies are an amazing team and bring all the magic, play,
+            STEM, art, music and learning to this 3-4 year old program. They are
+            Rockstar teachers, and will lead your 3-4 year old's through their
+            year of exploration, learning, pre-reading and pre-writing skills,
+            and challenges these students each day with new science, art, math
+            and dramatic play opportunities.
+            <p className="font-zen-maru-gothic text-lg lg:text-xl text-gray-700 leading-relaxed text-balance mt-4">
+              This incredible team will take their students on an adventure this
+              year that will offer foundational learning and play opportunities
+              while getting them emotionally, socially, academically and
+              spiritually ready for their Pre-K experience next year.
+            </p>
+          </p>
+        </div>
+      </section> */}
+
+      {/* Our Team Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-ovo text-4xl lg:text-5xl font-normal text-black text-center mb-16">
-            OUR TEAM
+            Meet our Sea Turtle Teachers
           </h2>
 
           {/* Team Grid */}
+
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-20">
             {/* Mrs. Cassie */}
             <div className="text-center">
@@ -155,7 +191,7 @@ export default function StarFishProgramPage() {
               </p>
             </div>
 
-            {/* Mrs. Danielle */}
+            {/* Full name */}
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <svg
@@ -167,23 +203,32 @@ export default function StarFishProgramPage() {
                 </svg>
               </div>
               <h3 className="font-ovo text-2xl font-normal text-black mb-4">
-                Mrs. Danielle
+                Full name
               </h3>
               <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                We are excited to have our wonderful Ms. Danielle return to our
-                school! Ms. Danielle has a gift with teaching young children, as
-                she creates a loving and nurturing classroom for her sweet
-                students. She first began teaching at SCC in 2006 and took a
-                short break when she welcomed her first and second child. She
-                earned a double bachelor's degree in Child Development and
-                Family Life Education from California State University of Long
-                Beach. She brings a passion and enthusiasm for teaching and your
-                child will absolutely fall in love with her. Ms. Danielle is a
-                mommy of two and enjoys family vacations and the beach.
+                We are absolutely blessed to have our wonderful Ms. Cassie teach
+                in our Starfish Program! She has such a tender, gentle heart for
+                our students, and especially loves to teach the 2- and
+                3-year-olds. We are so happy to have her in the classroom again!
+                We are confident that your little one will adore her! She has
+                her teaching certificate in Early Childhood Education and many
+                years of experience. Ms. Cassie has been at SCC since 2006 when
+                the school opened and taught in many different classrooms and
+                has a passion for teaching twos. Ms. Cassie is a mommy of two
+                and she enjoys dining out, shopping, watching movies, and going
+                on adventures with her family!
               </p>
             </div>
+          </div>
 
-            {/* Sarah Lee */}
+          <h2 className="font-ovo text-4xl lg:text-5xl font-normal text-black text-center mb-16">
+            Meet our Sea Otter Teachers
+          </h2>
+
+          {/* Team Grid */}
+
+          <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-20">
+            {/* Mrs. Cassie */}
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <svg
@@ -195,7 +240,7 @@ export default function StarFishProgramPage() {
                 </svg>
               </div>
               <h3 className="font-ovo text-2xl font-normal text-black mb-4">
-                Sarah Lee
+                Mrs. Cassie
               </h3>
               <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
                 We are absolutely blessed to have our wonderful Ms. Cassie teach

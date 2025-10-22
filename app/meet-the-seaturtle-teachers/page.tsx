@@ -183,7 +183,7 @@ export default function MeetTheStarfishTeachers() {
                 information.
               </p>
               <a
-                href="https://www.surfcitychristian.com/_files/ugd/12d36c_f06dc94b45824784b8570cfeea0bc65d.docx?dn=new%20family%202025-2026%20Family%20Application%20.docx"
+                href="/new-family-2025-2026-Family-Application.docx"
                 className="bg-[#7eb5d9] hover:bg-[#6ba5c9] text-white font-zen-maru-gothic px-8 py-3 rounded-md transition-colors duration-200"
               >
                 Apply
