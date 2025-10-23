@@ -152,7 +152,7 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Guppies Program */}
               <AnimatedSection animation="scaleIn" delay={100}>
                 <div className="text-center space-y-4">
@@ -206,6 +206,26 @@ export default function Home() {
                   </div>
                   <h3 className="font-ovo text-xl font-normal text-black">
                     SEA TURTLES
+                  </h3>
+                  <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
+                    Designed for 3-4 year-olds, our Sea Turtle Program fosters
+                    independence and confidence in young learners.
+                  </p>
+                </div>
+              </AnimatedSection>
+
+              {/* Sea Turtles Program */}
+              <AnimatedSection animation="scaleIn" delay={300}>
+                <div className="text-center space-y-4">
+                  <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                    <img
+                      src="/images/staff-photo-unified.png"
+                      alt="Sea Turtles program for 3-4 year olds"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="font-ovo text-xl font-normal text-black">
+                    SEA OTTERS
                   </h3>
                   <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
                     Designed for 3-4 year-olds, our Sea Turtle Program fosters
