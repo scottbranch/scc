@@ -103,12 +103,21 @@ export default function SCCExperiencePage() {
                   ACADEMIC SCHOOL READINESS
                 </h3>
                 <p className="font-zen-maru-gothic text-base text-gray-700 leading-relaxed">
-                  Exploring art in all shapes and sizes is a daily treat at SCC.
-                  We strive to foster creative and artistic minds and souls at
-                  SCC. Our SCC little ones love to explore the world of art
-                  through painting, molding, collaging, learning about famous
-                  artists and their works of art, and creating their own
-                  masterpieces as well!
+                  Our academic program is thoughtfully designed to prepare
+                  children for future school success while honoring each child
+                  as a unique creation of God. We recognize that children
+                  develop at different times and at different paces, and our
+                  approach allows each child to grow with confidence in a
+                  supportive and encouraging environment.
+                  <br />
+                  <br /> Through hands-on learning, early literacy, math
+                  foundations, and critical-thinking experiences, children build
+                  perseverance, responsibility, and a love for learning. In our{' '}
+                  <b>Surfers and Sailors programs</b>, we intentionally
+                  introduce{' '}
+                  <b>pre-reading, phonics, math, and early writing skills</b> to
+                  ensure each child feels confident, capable, and fully prepared
+                  for their elementary school experience.
                 </p>
               </div>
             </div>

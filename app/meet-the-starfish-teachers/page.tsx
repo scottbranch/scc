@@ -202,7 +202,7 @@ export default function MeetTheStarfishTeachers() {
                   for more information.
                 </p>
                 <a
-                  href="/new-family-2025-2026-Family-Application.docx"
+                  href="/contact"
                   className="bg-[#7eb5d9] hover:bg-[#6ba5c9] text-white font-zen-maru-gothic px-8 py-3 rounded-md transition-colors duration-200"
                 >
                   Apply

@@ -3,56 +3,28 @@ import { GlobalNavigation } from '@/components/global-navigation';
 export default function StarFishProgramPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Header */}
-      <section className="py-24 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-ovo text-2xl lg:text-6xl font-normal text-black leading-tight">
-            SAILORS
-            <br />
-            PROGRAM
-          </h1>
-        </div>
-      </section>
-
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Content */}
             <div className="space-y-6">
               <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black leading-tight">
-                JOIN OUR SAILORS PROGRAM
+                Sailors Program
               </h2>
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
                   <b>
-                    Children must be 5 before September 1st (exceptions can be
-                    made with Ms. Tami)
+                    TK / Kindergarten Combo | 4 Years Old Before September 1
                   </b>
                 </p>
-
                 <p>
-                  <b>
-                    Our SCC Kinder Program is a top notch, academic preparatory
-                    program for elementary school.
-                  </b>
-                  <br />
-                  Our 2016 Houghton Mifflin Common Core Curriculum will be based
-                  upon CA State Standards and Common Core Curriculum. Our
-                  Kindergarten Program fosters independent, critical thinkers,
-                  with a strong academic and spiritual experience. With our
-                  small class size, we identify and foster each child's unique
-                  learning style. We strive to create lifelong, confident and
-                  strong readers and writers with Houghton Mifflin leveled
-                  reader program, Phonics Program, and Writers’ Workshop! STEAM
-                  (Science Technology Engineering Art Math) is woven throughout
-                  our entire curriculum. Christ is the center of our Program and
-                  our day, with Chapel, Bible Memorization, Bible knowledge, all
-                  sprinkled with the seeds of the Holy Spirit. This top notch
-                  academic experience is wrapped up in the loving and
-                  experienced arms of a SCC Christian educator who considers her
-                  work her ministry. Children must be 5 before September 1st
-                  (exceptions can be made with Ms. Tami).
+                  The Sailors Program is a TK/Kindergarten combination class
+                  designed for children who are four years old by September 1
+                  and ready for advanced academic and developmental challenges.
+                  This program emphasizes kindergarten readiness, independence,
+                  and leadership while encouraging children to grow spiritually,
+                  academically, and socially in a Christ-centered environment.
                 </p>
               </div>
 
@@ -95,34 +67,10 @@ export default function StarFishProgramPage() {
               <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-2">
                 School Day
               </h3>
-              <p className="font-zen-maru text-gray-700 text-lg">8am-3pm</p>
-            </div>
-
-            <div>
-              <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-2">
-                Full Day
-              </h3>
               <p className="font-zen-maru text-gray-700 text-lg">
-                7:30am-5:30pm
+                7:00am-5:30pm
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <blockquote className="font-ovo text-2xl lg:text-3xl font-normal text-black leading-relaxed mb-8">
-            "THE STAR FISH PROGRAM TRANSFORMED MY CHILD'S CONFIDENCE AND SKILLS
-            IN WAYS WE NEVER IMAGINED! WE ARE SO GRATEFUL FOR THE SUPPORTIVE
-            ENVIRONMENT AND DEDICATED STAFF."
-          </blockquote>
-
-          <div className="space-y-1">
-            <p className="font-zen-maru text-lg font-semibold text-black">
-              Emily Johnson
-            </p>
-            <p className="font-zen-maru text-gray-600">Parent, Local School</p>
           </div>
         </div>
       </section>

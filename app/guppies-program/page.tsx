@@ -6,7 +6,7 @@ export default function StarFishProgramPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Header */}
-      <section className="py-24 px-6">
+      {/* <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-ovo text-2xl lg:text-6xl font-normal text-black leading-tight">
             GUPPIES
@@ -14,7 +14,7 @@ export default function StarFishProgramPage() {
             PROGRAM
           </h1>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
@@ -22,40 +22,29 @@ export default function StarFishProgramPage() {
             {/* Left Column - Content */}
             <div className="space-y-6">
               <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black leading-tight">
-                JOIN OUR GUPPIES PROGRAM
+                Guppies Program
               </h2>
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
-                  <b>
-                    Children must be 3 years old before September 1st and potty
-                    trained.
-                  </b>
+                  <b>Toddlers | 18–36 Months</b>
                 </p>
-
                 <p>
-                  Children explore the world of personal responsibility,
-                  cooperative play, empathy, friendships, expressive language,
-                  the gift of sharing, prayer, the fruits of the spirit, and a
-                  love for God’s Word. During this fundamental year, our Sea
-                  Turtles begin their life long journey and love for literature,
-                  music, story time, art and writing. Tracing, journaling,
-                  conquering scissors, coloring, Handwriting without tears
-                  program, gluing and creating personal masterpieces is a daily
-                  adventure. Our Sea Turtles take on the challenges of letter,
-                  number, color, and shape recognition and make social and
-                  emotional milestones. Love, laughter, friendships, growth,
-                  independence, and play are daily blessings in our Sea Turtle
-                  Program.
+                  The Guppies Program is designed for our youngest learners,
+                  providing a nurturing, faith-filled environment for toddlers
+                  ages 18–36 months. Through consistent routines, gentle
+                  guidance, and hands-on exploration, children develop trust,
+                  early language skills, and social awareness while experiencing
+                  God’s love in a safe and supportive setting.
                 </p>
               </div>
 
-              <a
+              {/* <a
                 href="https://www.surfcitychristian.com/_files/ugd/12d36c_4b7261a8f5614b52bdeeb329f0d8c281.pdf"
                 className="bg-[#7eb5d9] text-white px-6 py-3 rounded-md font-zen-maru hover:bg-[#6ba5cc] transition-colors"
               >
-                View our Sea Turtle Flyer
-              </a>
+                View our Guppies Flyer
+              </a> */}
             </div>
 
             {/* Right Column - Image Placeholder */}
@@ -81,32 +70,32 @@ export default function StarFishProgramPage() {
       <section className="py-16 px-6 bg-[#e5f0f7]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black mb-12 uppercase">
-            Our Sea Turtle Program Hours​
+            Our Guppies Program Hours​
           </h2>
 
           <div className="space-y-8">
-            <div>
+            {/* <div>
               <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-2">
                 Half Day
               </h3>
               <p className="font-zen-maru text-gray-700 text-lg">
                 8:15am-11:45am
               </p>
-            </div>
+            </div> */}
 
             <div>
               <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-2">
                 Full Day
               </h3>
               <p className="font-zen-maru text-gray-700 text-lg">
-                7:30am-5:30pm
+                7:00am - 5:30pm
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 px-6">
+      {/* <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <blockquote className="font-ovo text-2xl lg:text-3xl font-normal text-black leading-relaxed mb-8">
             "THE STAR FISH PROGRAM TRANSFORMED MY CHILD'S CONFIDENCE AND SKILLS
@@ -121,48 +110,16 @@ export default function StarFishProgramPage() {
             <p className="font-zen-maru text-gray-600">Parent, Local School</p>
           </div>
         </div>
-      </section>
-
-      {/* Hero Section */}
-      {/* <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-ovo uppercase text-4xl lg:text-6xl font-normal text-black leading-tight text-balance mb-8">
-            Meet our 3-4 year old teachers
-          </h1>
-          <p className="font-zen-maru-gothic text-lg lg:text-xl text-gray-700 leading-relaxed text-balance">
-            This special team will soon become your child’s favorite teachers!
-            Get ready for a wonderful year and fantastic SCC experience. We are
-            absolutely thrilled and beyond blessed these ladies will be teaching
-            and caring for your children this year.{' '}
-          </p>
-          <p className="font-zen-maru-gothic text-lg lg:text-xl text-gray-700 leading-relaxed text-balance mt-4">
-            These ladies are an amazing team and bring all the magic, play,
-            STEM, art, music and learning to this 3-4 year old program. They are
-            Rockstar teachers, and will lead your 3-4 year old's through their
-            year of exploration, learning, pre-reading and pre-writing skills,
-            and challenges these students each day with new science, art, math
-            and dramatic play opportunities.
-            <p className="font-zen-maru-gothic text-lg lg:text-xl text-gray-700 leading-relaxed text-balance mt-4">
-              This incredible team will take their students on an adventure this
-              year that will offer foundational learning and play opportunities
-              while getting them emotionally, socially, academically and
-              spiritually ready for their Pre-K experience next year.
-            </p>
-          </p>
-        </div>
       </section> */}
 
       {/* Our Team Section */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-ovo text-4xl lg:text-5xl font-normal text-black text-center mb-16">
             Meet our Sea Turtle Teachers
           </h2>
 
-          {/* Team Grid */}
-
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-20">
-            {/* Mrs. Cassie */}
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <svg
@@ -191,7 +148,6 @@ export default function StarFishProgramPage() {
               </p>
             </div>
 
-            {/* Full name */}
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <svg
@@ -225,10 +181,7 @@ export default function StarFishProgramPage() {
             Meet our Sea Otter Teachers
           </h2>
 
-          {/* Team Grid */}
-
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-20">
-            {/* Mrs. Cassie */}
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <svg
@@ -257,7 +210,6 @@ export default function StarFishProgramPage() {
               </p>
             </div>
 
-            {/* Full name */}
             <div className="text-center">
               <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <svg
@@ -287,7 +239,6 @@ export default function StarFishProgramPage() {
             </div>
           </div>
 
-          {/* We're Hiring Section */}
           <div className="text-center py-16">
             <h2 className="font-ovo text-4xl lg:text-5xl font-normal text-black mb-8">
               WE'RE HIRING!
@@ -308,7 +259,7 @@ export default function StarFishProgramPage() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -31,35 +31,35 @@ export default function Home() {
     STEM: {
       title: 'STEM',
       description:
-        '(STEM CONTENT) - Experience a welcoming community that fosters spiritual growth and connection. Our programs are designed to uplift and inspire individuals of all ages.',
+        'Our STEM Learning Lab invites children to explore science, technology, engineering, and math through hands-on discovery. Using age-appropriate materials, children build, experiment, problem-solve, and ask questions that spark curiosity and critical thinking. This lab encourages creativity, teamwork, and early engineering skills in a playful, engaging environment.',
       image: '/images/placeholder.png',
       alt: 'Children doing STEM activities with building blocks and science experiments',
     },
     'ART LAB': {
       title: 'ART LAB',
       description:
-        '(ART LAB CONTENT) - Join us for dynamic worship that resonates with your heart. Our services are crafted to create a meaningful and uplifting experience.',
+        'The Art Lab is a creative space where children explore self-expression through painting, drawing, sculpture, and mixed media. Process-based art experiences allow children to experiment freely while developing fine motor skills, confidence, and creativity. Every project celebrates imagination rather than perfection.',
       image: '/images/placeholder.png',
       alt: 'Children painting and doing art activities in colorful classroom',
     },
     'GARDENING AND SENSORY LAB': {
       title: 'GARDENING AND SENSORY LAB',
       description:
-        '(GARDENING AND SENSORY LAB CONTENT) - Get involved in our outreach initiatives that make a difference in the community. Together, we strive to serve and support those in need.',
+        'Our Gardening and Sensory Lab connects children to nature through planting, digging, watering, and hands-on sensory exploration. Children explore textures, water play, and natural materials while developing responsibility, curiosity, and sensory awareness. This calming space supports exploration through touch, movement, and observation.',
       image: '/images/placeholder.png',
       alt: 'Children gardening and exploring sensory activities outdoors',
     },
     'GROSS MOTOR SKILLS STATIONS': {
       title: 'GROSS MOTOR SKILLS STATIONS',
       description:
-        '(GROSS MOTOR SKILLS STATIONS CONTENT) - Get involved in our outreach initiatives that make a difference in the community. Together, we strive to serve and support those in need.',
+        'Our Gross Motor Skills Stations support physical development through climbing, jumping, balancing, riding trikes, and large-body movement activities. These stations build strength, coordination, and confidence while encouraging teamwork and safe risk-taking in an active outdoor environment.',
       image: '/images/placeholder.png',
       alt: 'Children doing physical activities and gross motor skills exercises',
     },
     'DRAMATIC PLAYHOUSE': {
       title: 'DRAMATIC PLAYHOUSE',
       description:
-        '(DRAMATIC PLAYHOUSE CONTENT) - Get involved in our outreach initiatives that make a difference in the community. Together, we strive to serve and support those in need.',
+        'Our life-size dramatic playhouse encourages imaginative role play, social interaction, and language development. Children act out real-life scenarios, practice cooperation, and build social-emotional skills through pretend play that feels exciting, meaningful, and fun',
       image: '/images/placeholder.png',
       alt: 'Child playing with wooden drum and colorful building blocks in classroom',
     },
@@ -167,9 +167,9 @@ export default function Home() {
                     GUPPIES
                   </h3>
                   <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
-                    18 month Program.
-                    <br />
-                    Coming soon...
+                    The Guppies Program is designed for our youngest learners,
+                    providing a nurturing, faith-filled environment for toddlers
+                    ages 18–36 months.
                   </p>
                 </div>
               </AnimatedSection>
@@ -188,8 +188,9 @@ export default function Home() {
                     STARFISH
                   </h3>
                   <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
-                    Our Starfish Program nurtures creativity in toddlers aged
-                    2-3 years through play and exploration.
+                    The Starfish Program supports children ages 24 months
+                    through early preschool years as they transition into a more
+                    structured learning environment.
                   </p>
                 </div>
               </AnimatedSection>
@@ -208,8 +209,10 @@ export default function Home() {
                     SEA TURTLES
                   </h3>
                   <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
-                    Designed for 3-4 year-olds, our Sea Turtle Program fosters
-                    independence and confidence in young learners.
+                    The Sea Turtles Program provides a balanced preschool
+                    experience for children ages 3–4 years old, focusing on
+                    social-emotional growth, early academics, and creative
+                    exploration.
                   </p>
                 </div>
               </AnimatedSection>
@@ -228,8 +231,10 @@ export default function Home() {
                     SEA OTTERS
                   </h3>
                   <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
-                    Designed for 3-4 year-olds, our Sea Turtle Program fosters
-                    independence and confidence in young learners.
+                    The Sea Otters Program provides a balanced preschool
+                    experience for children ages 3–4 years old, focusing on
+                    social-emotional growth, early academics, and creative
+                    exploration.
                   </p>
                 </div>
               </AnimatedSection>
@@ -248,8 +253,9 @@ export default function Home() {
                     SURFERS
                   </h3>
                   <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
-                    The Surfers Program promotes teamwork and problem-solving
-                    skills for energetic 4-5 year-olds.
+                    The Surfers Program is our Transitional Kindergarten
+                    classroom for children who are four years old by September
+                    1.
                   </p>
                 </div>
               </AnimatedSection>
@@ -268,8 +274,10 @@ export default function Home() {
                     SAILORS
                   </h3>
                   <p className="font-zen-maru-gothic text-sm text-gray-700 leading-relaxed">
-                    Our Kindergarten Program fosters independent, critical
-                    thinkers, with a strong academic and spiritual experience.
+                    The Sailors Program is a TK/Kindergarten combination class
+                    designed for children who are four years old by September 1
+                    and ready for advanced academic and developmental
+                    challenges.
                   </p>
                 </div>
               </AnimatedSection>
@@ -348,12 +356,13 @@ export default function Home() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <blockquote className="space-y-8">
               <p className="font-ovo text-2xl lg:text-3xl font-normal text-black text-balance">
-                "WHAT A WONDERFUL FEELING TO DROP OUR GIRLS OFF AT SCC AND KNOW
-                THEY ARE SAFE, LOVED AND BEING NURTURED IN THIS WARM
-                ENVIRONMENT."
+                "You can truly feel the care, intention, and heart that goes
+                into this school every day. SCC has become a second home for our
+                kids, and we feel incredibly lucky to be part of this
+                community."
               </p>
               <cite className="font-zen-maru-gothic text-lg text-gray-700 not-italic">
-                The Manthorne Family
+                The Evans Family
               </cite>
             </blockquote>
           </div>
@@ -451,14 +460,33 @@ export default function Home() {
                   THE SCC EXPERIENCE
                 </h2>
                 <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
-                  The SCC experience offers students learning opportunities in
-                  dramatic play, language arts, fine motor writing programs such
-                  as Handwriting Without Tears, life and physical science
-                  lessons and experiments, a learning garden, an introduction to
-                  Spanish, math, art masters, gross motor/physical education
-                  programs, music & movement, chapel and fruit of the
-                  spirit...and so much more. Call us to schedule a tour and see
-                  what makes SCC unique and very special.
+                  At Surf City Christian Child Development Preschool, we believe
+                  early childhood is a sacred season of growth. Our program
+                  intentionally blends{' '}
+                  <b>
+                    Christian faith, strong academics, creative exploration, and
+                    a nurturing community
+                  </b>{' '}
+                  to support the development of the whole child—spiritually,
+                  socially, emotionally, and academically.
+                </p>
+                <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
+                  What sets SCC apart is our purposeful approach to early
+                  education. Children build a strong academic foundation while
+                  also growing in character, confidence, and compassion. Faith
+                  is naturally woven into daily experiences through chapel,
+                  prayer, scripture, and the Fruit of the Spirit, helping
+                  children understand God’s love in meaningful, age-appropriate
+                  ways.
+                </p>
+                <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
+                  Our classrooms are warm, engaging environments where children
+                  feel known, valued, and safe. Through hands-on learning,
+                  creative expression, outdoor play, and family-style meals,
+                  children develop independence, resilience, and a genuine love
+                  for learning. Families choose SCC because we prepare children
+                  not only for their next academic step, but for a life grounded
+                  in faith, curiosity, and strong values.
                 </p>
               </div>
             </div>

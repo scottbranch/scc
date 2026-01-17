@@ -26,35 +26,35 @@ export default function StarFishProgramPage() {
     STEM: {
       title: 'STEM',
       description:
-        '(STEM CONTENT) - Experience a welcoming community that fosters spiritual growth and connection. Our programs are designed to uplift and inspire individuals of all ages.',
+        'Our STEM Learning Lab invites children to explore science, technology, engineering, and math through hands-on discovery. Using age-appropriate materials, children build, experiment, problem-solve, and ask questions that spark curiosity and critical thinking. This lab encourages creativity, teamwork, and early engineering skills in a playful, engaging environment.',
       image: '/images/placeholder.png',
       alt: 'Children doing STEM activities with building blocks and science experiments',
     },
     'ART LAB': {
       title: 'ART LAB',
       description:
-        '(ART LAB CONTENT) - Join us for dynamic worship that resonates with your heart. Our services are crafted to create a meaningful and uplifting experience.',
+        'The Art Lab is a creative space where children explore self-expression through painting, drawing, sculpture, and mixed media. Process-based art experiences allow children to experiment freely while developing fine motor skills, confidence, and creativity. Every project celebrates imagination rather than perfection.',
       image: '/images/placeholder.png',
       alt: 'Children painting and doing art activities in colorful classroom',
     },
     'GARDENING AND SENSORY LAB': {
       title: 'GARDENING AND SENSORY LAB',
       description:
-        '(GARDENING AND SENSORY LAB CONTENT) - Get involved in our outreach initiatives that make a difference in the community. Together, we strive to serve and support those in need.',
+        'Our Gardening and Sensory Lab connects children to nature through planting, digging, watering, and hands-on sensory exploration. Children explore textures, water play, and natural materials while developing responsibility, curiosity, and sensory awareness. This calming space supports exploration through touch, movement, and observation.',
       image: '/images/placeholder.png',
       alt: 'Children gardening and exploring sensory activities outdoors',
     },
     'GROSS MOTOR SKILLS STATIONS': {
       title: 'GROSS MOTOR SKILLS STATIONS',
       description:
-        '(GROSS MOTOR SKILLS STATIONS CONTENT) - Get involved in our outreach initiatives that make a difference in the community. Together, we strive to serve and support those in need.',
+        'Our Gross Motor Skills Stations support physical development through climbing, jumping, balancing, riding trikes, and large-body movement activities. These stations build strength, coordination, and confidence while encouraging teamwork and safe risk-taking in an active outdoor environment.',
       image: '/images/placeholder.png',
       alt: 'Children doing physical activities and gross motor skills exercises',
     },
     'DRAMATIC PLAYHOUSE': {
       title: 'DRAMATIC PLAYHOUSE',
       description:
-        '(DRAMATIC PLAYHOUSE CONTENT) - Get involved in our outreach initiatives that make a difference in the community. Together, we strive to serve and support those in need.',
+        'Our life-size dramatic playhouse encourages imaginative role play, social interaction, and language development. Children act out real-life scenarios, practice cooperation, and build social-emotional skills through pretend play that feels exciting, meaningful, and fun',
       image: '/images/placeholder.png',
       alt: 'Child playing with wooden drum and colorful building blocks in classroom',
     },

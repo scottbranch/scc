@@ -5,24 +5,13 @@ import { GlobalNavigation } from '@/components/global-navigation';
 export default function StarFishProgramPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Header */}
-      <section className="py-24 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-ovo text-2xl lg:text-6xl font-normal text-black leading-tight">
-            SEA OTTERS
-            <br />
-            PROGRAM
-          </h1>
-        </div>
-      </section>
-
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Content */}
             <div className="space-y-6">
               <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black leading-tight">
-                JOIN OUR SEA TURTLE PROGRAM
+                Sea Otters Program
               </h2>
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">

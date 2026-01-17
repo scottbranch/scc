@@ -24,24 +24,6 @@ export default function TestimonialsPage() {
         </section>
       </AnimatedSection>
 
-      {/* Main Testimonial - Featured */}
-      <AnimatedSection animation="fadeIn">
-        <section className="py-16 lg:py-24 bg-[#E5F0F7]">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <blockquote className="space-y-8">
-              <p className="font-ovo text-2xl lg:text-3xl font-normal text-black text-balance">
-                "WHAT A WONDERFUL FEELING TO DROP OUR GIRLS OFF AT SCC AND KNOW
-                THEY ARE SAFE, LOVED AND BEING NURTURED IN THIS WARM
-                ENVIRONMENT."
-              </p>
-              <cite className="font-zen-maru-gothic text-lg text-gray-700 not-italic">
-                The Manthorne Family
-              </cite>
-            </blockquote>
-          </div>
-        </section>
-      </AnimatedSection>
-
       {/* Family Testimonials Grid */}
       <AnimatedSection animation="fadeInUp">
         <section className="py-16 lg:py-24">
@@ -56,133 +38,102 @@ export default function TestimonialsPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 gap-10">
               {/* Testimonial 1 */}
               <AnimatedSection animation="scaleIn" delay={100}>
                 <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
                   <blockquote className="space-y-6">
                     <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                      "SCC has been such a blessing to our family. The teachers
-                      genuinely care about each child and create an environment
-                      where our daughter thrives. We love the spiritual
-                      foundation they provide alongside excellent academics."
+                      We have been part of the SCC family since July 2023 when
+                      our daughter started at two years old. From the moment we
+                      walked through the door to tour SCC in the fall of 2022,
+                      we knew where we wanted our first and only child to begin
+                      her early childhood education.
+                      <br />
+                      <br />
+                      As two full-time working parents with one of us working in
+                      local law enforcement, the decision of full-time daycare
+                      was such a heavy one that put stress on our hearts and
+                      minds, but we were soon put at ease. Tami has chosen the
+                      most phenomenal teachers and created the warmest, most
+                      welcoming and beautiful “Pottery Barn-esque” environment
+                      for our babies to learn, grow and thrive. SCC is truly the
+                      most magical “home away from home” for our daughter to
+                      spend her childhood days. I never question the love she is
+                      receiving from her teachers, even on hard mornings where
+                      drop-off can be more of a struggle than usual (IYKYK). As
+                      the third childcare facility we have been part of, the
+                      profound care, structure and support our daughter has
+                      received is unlike any other. From potty training, to
+                      nap-time or behavior struggles, Tami and her team have
+                      worked WITH US to help make sure our daughter has all she
+                      needs to thrive, and that we are on the same page as a
+                      team to support her.
+                      <br />
+                      <br />
+                      Additionally, the activities that are offered have been
+                      some of my daughter’s best experiences; dance & gymnastics
+                      class with Ms. Stacy, music class with Ms. Sharon, Spanish
+                      lessons with Ms. Ruby - the curriculum opportunities are
+                      incredible. The loving, homey and supportive atmosphere is
+                      one I wish we could bottle up as we move forward into her
+                      elementary school years. We could not be more grateful for
+                      our nearly three years at Surf City Christian and highly
+                      recommend anyone seeking early day care for their babies
+                      to come see what makes this place so very special!
                     </p>
                     <div className="space-y-1">
                       <p className="font-zen-maru-gothic font-semibold text-black">
-                        Sarah & Mike Thompson
-                      </p>
-                      <p className="font-zen-maru-gothic text-sm text-gray-600">
-                        Starfish Program Parent
+                        - Kathryn Ancona Deuel
                       </p>
                     </div>
                   </blockquote>
                 </div>
               </AnimatedSection>
 
-              {/* Testimonial 2 */}
-              <AnimatedSection animation="scaleIn" delay={200}>
-                <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
-                  <blockquote className="space-y-6">
-                    <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                      "The Sea Turtle program transformed my child's confidence
-                      and skills in ways we never imagined! We are so grateful
-                      for the supportive environment and dedicated staff who go
-                      above and beyond every day."
-                    </p>
-                    <div className="space-y-1">
-                      <p className="font-zen-maru-gothic font-semibold text-black">
-                        Emily Johnson
-                      </p>
-                      <p className="font-zen-maru-gothic text-sm text-gray-600">
-                        Sea Turtle Program Parent
-                      </p>
-                    </div>
-                  </blockquote>
-                </div>
-              </AnimatedSection>
-
-              {/* Testimonial 3 */}
-              <AnimatedSection animation="scaleIn" delay={300}>
-                <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
-                  <blockquote className="space-y-6">
-                    <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                      "Our son has been in the Surfers program for two years and
-                      we couldn't be happier. The balance of learning, play, and
-                      spiritual growth is exactly what we were looking for. The
-                      outdoor learning labs are amazing!"
-                    </p>
-                    <div className="space-y-1">
-                      <p className="font-zen-maru-gothic font-semibold text-black">
-                        David & Jennifer Chen
-                      </p>
-                      <p className="font-zen-maru-gothic text-sm text-gray-600">
-                        Surfers Program Parent
-                      </p>
-                    </div>
-                  </blockquote>
-                </div>
-              </AnimatedSection>
-
-              {/* Testimonial 4 */}
               <AnimatedSection animation="scaleIn" delay={100}>
                 <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
                   <blockquote className="space-y-6">
                     <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                      "The Sailors kindergarten program exceeded all our
-                      expectations. Our daughter was so well-prepared for
-                      elementary school, both academically and socially. The
-                      chapel time was her favorite part of each day."
+                      "Surf City Christian Preschool is truly a special place.
+                      We have had such a wonderful experience with both our son
+                      and daughter here, and we are so grateful for the
+                      incredible teachers and staff. The teachers are loving,
+                      patient, and genuinely invested in each child, not just
+                      academically, but emotionally and socially as well.
+                      <br />
+                      <br />
+                      Our son made remarkable progress after starting SCC. After
+                      just a few weeks, we saw a huge leap in his language
+                      development, and he began talking so much more. It was
+                      amazing to watch his confidence grow in such a nurturing
+                      environment.
+                      <br />
+                      <br />
+                      Our daughter has also grown tremendously during her time
+                      at SCC. She started off very shy, and we have seen such a
+                      beautiful change in her confidence and social skills. She
+                      is more comfortable engaging with peers, expressing
+                      herself, and participating in classroom activities, which
+                      has been so meaningful for us as parents to witness.
+                      <br />
+                      <br />
+                      What really sets SCC apart is their focus on whole child
+                      education. They create an environment where children learn
+                      through play, structure, creativity, and connection. The
+                      special events, like gingerbread making and other seasonal
+                      celebrations, make school feel joyful and memorable, not
+                      just routine.
+                      <br />
+                      <br />
+                      You can truly feel the care, intention, and heart that
+                      goes into this school every day. SCC has become a second
+                      home for our kids, and we feel incredibly lucky to be part
+                      of this community. We could not recommend it more highly."
                     </p>
                     <div className="space-y-1">
                       <p className="font-zen-maru-gothic font-semibold text-black">
-                        Lisa & Robert Martinez
-                      </p>
-                      <p className="font-zen-maru-gothic text-sm text-gray-600">
-                        Sailors Program Parent
-                      </p>
-                    </div>
-                  </blockquote>
-                </div>
-              </AnimatedSection>
-
-              {/* Testimonial 5 */}
-              <AnimatedSection animation="scaleIn" delay={200}>
-                <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
-                  <blockquote className="space-y-6">
-                    <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                      "We toured many preschools, but SCC felt like home from
-                      the moment we walked in. The teachers remember every
-                      child's name and make each family feel welcome. It truly
-                      is a special place."
-                    </p>
-                    <div className="space-y-1">
-                      <p className="font-zen-maru-gothic font-semibold text-black">
-                        Amanda & Chris Wilson
-                      </p>
-                      <p className="font-zen-maru-gothic text-sm text-gray-600">
-                        New Family
-                      </p>
-                    </div>
-                  </blockquote>
-                </div>
-              </AnimatedSection>
-
-              {/* Testimonial 6 */}
-              <AnimatedSection animation="scaleIn" delay={300}>
-                <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
-                  <blockquote className="space-y-6">
-                    <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                      "The staff at SCC are incredible. They've helped our
-                      daughter develop not just academically, but emotionally
-                      and spiritually too. The fruits of the spirit curriculum
-                      has made such a positive impact on our whole family."
-                    </p>
-                    <div className="space-y-1">
-                      <p className="font-zen-maru-gothic font-semibold text-black">
-                        Rachel & Kevin Anderson
-                      </p>
-                      <p className="font-zen-maru-gothic text-sm text-gray-600">
-                        Multi-Program Family
+                        - The Evans Family
                       </p>
                     </div>
                   </blockquote>
