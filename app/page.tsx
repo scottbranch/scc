@@ -32,35 +32,35 @@ export default function Home() {
       title: 'STEM',
       description:
         'Our STEM Learning Lab invites children to explore science, technology, engineering, and math through hands-on discovery. Using age-appropriate materials, children build, experiment, problem-solve, and ask questions that spark curiosity and critical thinking. This lab encourages creativity, teamwork, and early engineering skills in a playful, engaging environment.',
-      image: '/images/placeholder.png',
+      image: '/images/stem.jpg',
       alt: 'Children doing STEM activities with building blocks and science experiments',
     },
     'ART LAB': {
       title: 'ART LAB',
       description:
         'The Art Lab is a creative space where children explore self-expression through painting, drawing, sculpture, and mixed media. Process-based art experiences allow children to experiment freely while developing fine motor skills, confidence, and creativity. Every project celebrates imagination rather than perfection.',
-      image: '/images/placeholder.png',
+      image: '/images/artlab.jpg',
       alt: 'Children painting and doing art activities in colorful classroom',
     },
     'GARDENING AND SENSORY LAB': {
       title: 'GARDENING AND SENSORY LAB',
       description:
         'Our Gardening and Sensory Lab connects children to nature through planting, digging, watering, and hands-on sensory exploration. Children explore textures, water play, and natural materials while developing responsibility, curiosity, and sensory awareness. This calming space supports exploration through touch, movement, and observation.',
-      image: '/images/placeholder.png',
+      image: '/images/gardening.jpg',
       alt: 'Children gardening and exploring sensory activities outdoors',
     },
     'GROSS MOTOR SKILLS STATIONS': {
       title: 'GROSS MOTOR SKILLS STATIONS',
       description:
         'Our Gross Motor Skills Stations support physical development through climbing, jumping, balancing, riding trikes, and large-body movement activities. These stations build strength, coordination, and confidence while encouraging teamwork and safe risk-taking in an active outdoor environment.',
-      image: '/images/placeholder.png',
+      image: '/images/motorskills.jpg',
       alt: 'Children doing physical activities and gross motor skills exercises',
     },
     'DRAMATIC PLAYHOUSE': {
       title: 'DRAMATIC PLAYHOUSE',
       description:
         'Our life-size dramatic playhouse encourages imaginative role play, social interaction, and language development. Children act out real-life scenarios, practice cooperation, and build social-emotional skills through pretend play that feels exciting, meaningful, and fun',
-      image: '/images/placeholder.png',
+      image: '/images/playhouse.jpg',
       alt: 'Child playing with wooden drum and colorful building blocks in classroom',
     },
   };
@@ -76,13 +76,13 @@ export default function Home() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/video/placeholder-vid.mp4" type="video/mp4" />
+          <source src="/video/scc-hero.mp4" type="video/mp4" />
           {/* Fallback image if video doesn't load */}
-          <img
+          {/* <img
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Relume_Figma_Kit__v3.4___Community_.png-ED9Pp4zT6uGFMhgAVosweBfaF6k8Dm.jpeg"
             alt="Children learning in preschool classroom"
             className="w-full h-full object-cover"
-          />
+          /> */}
         </video>
 
         {/* Video Overlay */}
@@ -116,7 +116,7 @@ export default function Home() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://www.surfcitychristian.com/_files/ugd/12d36c_f06dc94b45824784b8570cfeea0bc65d.docx?dn=new%20family%202025-2026%20Family%20Application%20.docx"
+                    href="/new-family-2025-2026-Family-Application.docx"
                     className="bg-[#7eb5d9] text-white px-8 py-3 rounded-md font-zen-maru-gothic font-medium hover:bg-[#6ba4c8] transition-colors"
                   >
                     New Family Application
@@ -133,8 +133,8 @@ export default function Home() {
               {/* Right Image */}
               <div className="relative">
                 <img
-                  src="/images/placeholder.png"
-                  alt="Teacher with diverse group of children celebrating with arms raised in classroom"
+                  src="/images/scc-building.jpg"
+                  alt="Surf City Christian building exterior"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
               </div>
@@ -158,7 +158,7 @@ export default function Home() {
                 <div className="text-center space-y-4">
                   <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img
-                      src="/images/staff-photo-unified.png"
+                      src="/images/guppies.jpg"
                       alt="Guppies program for 18 month olds"
                       className="w-full h-full object-cover"
                     />
@@ -179,7 +179,7 @@ export default function Home() {
                 <div className="text-center space-y-4">
                   <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img
-                      src="/images/staff-photo-unified.png"
+                      src="/images/starfish.jpg"
                       alt="Starfish program for 2-3 year olds"
                       className="w-full h-full object-cover"
                     />
@@ -200,7 +200,7 @@ export default function Home() {
                 <div className="text-center space-y-4">
                   <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img
-                      src="/images/staff-photo-unified.png"
+                      src="/images/seaturtles.jpg"
                       alt="Sea Turtles program for 3-4 year olds"
                       className="w-full h-full object-cover"
                     />
@@ -222,8 +222,8 @@ export default function Home() {
                 <div className="text-center space-y-4">
                   <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img
-                      src="/images/staff-photo-unified.png"
-                      alt="Sea Turtles program for 3-4 year olds"
+                      src="/images/seaotters.jpg"
+                      alt="Sea Otters program for 3-4 year olds"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -244,7 +244,7 @@ export default function Home() {
                 <div className="text-center space-y-4">
                   <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img
-                      src="/images/staff-photo-unified.png"
+                      src="/images/surfers.jpg"
                       alt="Surfers program for 4-5 year olds"
                       className="w-full h-full object-cover"
                     />
@@ -265,7 +265,7 @@ export default function Home() {
                 <div className="text-center space-y-4">
                   <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img
-                      src="/images/staff-photo-unified.png"
+                      src="/images/sailors.jpg"
                       alt="Sailors kindergarten program"
                       className="w-full h-full object-cover"
                     />
@@ -310,7 +310,7 @@ export default function Home() {
               {/* Right Image */}
               <div className="relative">
                 <img
-                  src="/images/placeholder.png"
+                  src="/images/featured2.jpg"
                   alt="Children engaged in learning activities in a nurturing classroom environment"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
@@ -325,7 +325,7 @@ export default function Home() {
               {/* Left Image */}
               <div className="relative">
                 <img
-                  src="/images/placeholder.png"
+                  src="/images/featured3.jpg"
                   alt="Teacher reading to children in a cozy classroom circle time"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
@@ -389,58 +389,50 @@ export default function Home() {
             </div>
 
             <AnimatedSection animation="scaleIn" delay={200}>
-              <div className="columns-2 lg:columns-3 gap-4 space-y-4">
-                <div className="break-inside-avoid mb-4">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <div>
                   <img
-                    src="/images/staff-photo-unified.png"
+                    src="/staff/staff1.jpg"
                     alt="Teacher with two young children in classroom"
                     className="w-full rounded-lg"
                   />
                 </div>
 
-                <div className="break-inside-avoid mb-4">
+                <div>
                   <img
-                    src="/images/staff-photo-unified.png"
+                    src="/staff/staff2.jpg"
                     alt="Teacher with two young children in classroom"
                     className="w-full rounded-lg"
                   />
                 </div>
 
-                <div className="break-inside-avoid mb-4">
+                <div>
                   <img
-                    src="/images/staff-photo-outdoor.png"
+                    src="/staff/staff3.jpg"
                     alt="Blonde teacher with sunglasses outdoors with two young children"
                     className="w-full rounded-lg"
                   />
                 </div>
 
-                <div className="break-inside-avoid mb-4">
+                <div>
                   <img
-                    src="/images/staff-photo-outdoor.png"
+                    src="/staff/staff5.jpg"
                     alt="Blonde teacher with sunglasses outdoors with two young children"
                     className="w-full rounded-lg"
                   />
                 </div>
 
-                <div className="break-inside-avoid mb-4">
+                <div>
                   <img
-                    src="/images/staff-photo-outdoor.png"
-                    alt="Blonde teacher with sunglasses outdoors with two young children"
-                    className="w-full rounded-lg"
-                  />
-                </div>
-
-                <div className="break-inside-avoid mb-4">
-                  <img
-                    src="/images/staff-photo-unified.png"
+                    src="/staff/staff6.jpg"
                     alt="Teacher with two young children in classroom"
                     className="w-full rounded-lg"
                   />
                 </div>
 
-                <div className="break-inside-avoid mb-4">
+                <div>
                   <img
-                    src="/images/staff-photo-unified.png"
+                    src="/staff/staff7.jpg"
                     alt="Teacher with two young children in classroom"
                     className="w-full rounded-lg"
                   />
@@ -500,13 +492,13 @@ export default function Home() {
                 {/* Chapel Column */}
                 <AnimatedSection animation="slideInLeft" delay={100}>
                   <div className="text-center space-y-6">
-                    <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                    {/* <div className="aspect-[4/3] overflow-hidden rounded-lg">
                       <img
                         src="/images/placeholder.png"
                         alt="Children's hands playing with colorful building blocks and musical instruments"
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </div> */}
                     <h3 className="font-ovo text-2xl font-normal text-black">
                       CHAPEL
                     </h3>
@@ -525,13 +517,13 @@ export default function Home() {
                 {/* Academic School Readiness Column */}
                 <AnimatedSection animation="scaleIn" delay={200}>
                   <div className="text-center space-y-6">
-                    <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                    {/* <div className="aspect-[4/3] overflow-hidden rounded-lg">
                       <img
                         src="/images/placeholder.png"
                         alt="Young boy smiling while writing and drawing in classroom with other children"
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </div> */}
                     <h3 className="font-ovo text-2xl font-normal text-black">
                       ACADEMIC SCHOOL READINESS
                     </h3>
@@ -549,13 +541,13 @@ export default function Home() {
                 {/* Spanish Column */}
                 <AnimatedSection animation="slideInRight" delay={300}>
                   <div className="text-center space-y-6">
-                    <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                    {/* <div className="aspect-[4/3] overflow-hidden rounded-lg">
                       <img
                         src="/images/placeholder.png"
                         alt="Children playing outdoors on grassy field during physical education activities"
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </div> */}
                     <h3 className="font-ovo text-2xl font-normal text-black">
                       SPANISH
                     </h3>
@@ -582,13 +574,13 @@ export default function Home() {
                 {/* Chapel Column */}
                 <AnimatedSection animation="slideInLeft" delay={100}>
                   <div className="text-center space-y-6">
-                    <div className="aspect-[4/3] overflow-hidden rounded-lg">
-                      <img
-                        src="/images/placeholder.png"
-                        alt="Children's hands playing with colorful building blocks and musical instruments"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
+                    {/* <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                        <img
+                          src="/images/placeholder.png"
+                          alt="Children's hands playing with colorful building blocks and musical instruments"
+                          className="w-full h-full object-cover"
+                        />
+                      </div> */}
                     <h3 className="uppercase font-ovo text-2xl font-normal text-black">
                       Music and Movement
                     </h3>
@@ -607,13 +599,13 @@ export default function Home() {
                 {/* Academic School Readiness Column */}
                 <AnimatedSection animation="scaleIn" delay={200}>
                   <div className="text-center space-y-6">
-                    <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                    {/* <div className="aspect-[4/3] overflow-hidden rounded-lg">
                       <img
                         src="/images/placeholder.png"
                         alt="Young boy smiling while writing and drawing in classroom with other children"
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </div> */}
                     <h3 className="uppercase font-ovo text-2xl font-normal text-black">
                       Family Style Meals & Food Experience Programs.
                     </h3>
@@ -631,13 +623,13 @@ export default function Home() {
                 {/* Spanish Column */}
                 <AnimatedSection animation="slideInRight" delay={300}>
                   <div className="text-center space-y-6">
-                    <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                    {/* <div className="aspect-[4/3] overflow-hidden rounded-lg">
                       <img
                         src="/images/placeholder.png"
                         alt="Children playing outdoors on grassy field during physical education activities"
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </div> */}
                     <h3 className="font-ovo text-2xl font-normal text-black">
                       Art Masters
                     </h3>
@@ -809,7 +801,7 @@ export default function Home() {
               {/* Right Image */}
               <div className="relative">
                 <img
-                  src="/images/placeholder.png"
+                  src="/kids-writing.jpg"
                   alt="Colorful outdoor playground with slides and climbing equipment surrounded by green grass and trees"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />

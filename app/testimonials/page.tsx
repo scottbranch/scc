@@ -224,7 +224,7 @@ export default function TestimonialsPage() {
                   {/* Contact Buttons */}
                   <div className="flex flex-col sm:flex-row gap-4 mt-10">
                     <a
-                      href="tel:+1-714-8460316"
+                      href="/schedule-a-tour"
                       className="bg-[#7eb5d9] text-white px-8 py-3 rounded-md font-zen-maru-gothic font-medium hover:bg-[#6ba4c8] transition-colors"
                     >
                       Schedule a Tour
@@ -242,7 +242,7 @@ export default function TestimonialsPage() {
               {/* Right Image */}
               <div className="relative">
                 <img
-                  src="/images/campus-playground.png"
+                  src="/kids-writing.jpg"
                   alt="Colorful outdoor playground with slides and climbing equipment surrounded by green grass and trees"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />

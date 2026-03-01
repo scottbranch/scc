@@ -27,35 +27,35 @@ export default function StarFishProgramPage() {
       title: 'STEM',
       description:
         'Our STEM Learning Lab invites children to explore science, technology, engineering, and math through hands-on discovery. Using age-appropriate materials, children build, experiment, problem-solve, and ask questions that spark curiosity and critical thinking. This lab encourages creativity, teamwork, and early engineering skills in a playful, engaging environment.',
-      image: '/images/placeholder.png',
+      image: '/images/stem.jpg',
       alt: 'Children doing STEM activities with building blocks and science experiments',
     },
     'ART LAB': {
       title: 'ART LAB',
       description:
         'The Art Lab is a creative space where children explore self-expression through painting, drawing, sculpture, and mixed media. Process-based art experiences allow children to experiment freely while developing fine motor skills, confidence, and creativity. Every project celebrates imagination rather than perfection.',
-      image: '/images/placeholder.png',
+      image: '/images/artlab.jpg',
       alt: 'Children painting and doing art activities in colorful classroom',
     },
     'GARDENING AND SENSORY LAB': {
       title: 'GARDENING AND SENSORY LAB',
       description:
         'Our Gardening and Sensory Lab connects children to nature through planting, digging, watering, and hands-on sensory exploration. Children explore textures, water play, and natural materials while developing responsibility, curiosity, and sensory awareness. This calming space supports exploration through touch, movement, and observation.',
-      image: '/images/placeholder.png',
+      image: '/images/gardening.jpg',
       alt: 'Children gardening and exploring sensory activities outdoors',
     },
     'GROSS MOTOR SKILLS STATIONS': {
       title: 'GROSS MOTOR SKILLS STATIONS',
       description:
         'Our Gross Motor Skills Stations support physical development through climbing, jumping, balancing, riding trikes, and large-body movement activities. These stations build strength, coordination, and confidence while encouraging teamwork and safe risk-taking in an active outdoor environment.',
-      image: '/images/placeholder.png',
+      image: '/images/motorskills.jpg',
       alt: 'Children doing physical activities and gross motor skills exercises',
     },
     'DRAMATIC PLAYHOUSE': {
       title: 'DRAMATIC PLAYHOUSE',
       description:
         'Our life-size dramatic playhouse encourages imaginative role play, social interaction, and language development. Children act out real-life scenarios, practice cooperation, and build social-emotional skills through pretend play that feels exciting, meaningful, and fun',
-      image: '/images/placeholder.png',
+      image: '/images/playhouse.jpg',
       alt: 'Child playing with wooden drum and colorful building blocks in classroom',
     },
   };

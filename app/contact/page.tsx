@@ -2,8 +2,18 @@
 
 import { AnimatedSection } from '@/components/animated-section';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactPage() {
+  const [state, handleSubmit] = useForm('mojnwlgq');
+  if (state.succeeded) {
+    return (
+      <div className="py-25 text-center">
+        <p>Thank you for reaching out! We will get back to you soon.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-white">
       {/* Contact Form Section */}
@@ -23,7 +33,7 @@ export default function ContactPage() {
             </div>
 
             <AnimatedSection animation="slideInLeft" delay={200}>
-              <form className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label
                     htmlFor="name"
@@ -75,6 +85,7 @@ export default function ContactPage() {
 
                 <button
                   type="submit"
+                  disabled={state.submitting}
                   className="w-full bg-[#7eb5d9] text-white font-zen-maru-gothic font-medium py-3 px-6 rounded-md hover:bg-[#6ba4c8] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#7eb5d9] focus:ring-offset-2"
                 >
                   Send

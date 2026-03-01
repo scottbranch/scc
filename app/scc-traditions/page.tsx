@@ -34,135 +34,15 @@ export default function EventsPage() {
 
       {/* Events Hero */}
       <section className="py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            {/* Left Content */}
-            <div className="space-y-6">
-              <h1 className="font-ovo text-4xl md:text-5xl lg:text-6xl text-black leading-tight">
-                SCC TRADITIONS
-              </h1>
-              <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
-                Stay connected and be part of our vibrant community. Discover a
-                variety of events designed to inspire and engage everyone.
-              </p>
-            </div>
-
-            {/* Right Infinite Carousel */}
-            <div className="grid grid-cols-2 gap-4 h-96 overflow-hidden">
-              {/* Left Column - Moving Down */}
-              <div className="relative">
-                <div className="animate-scroll-down space-y-4">
-                  {/* First set of images */}
-                  <div className="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/school-event-celebration.jpg"
-                      alt="School event celebration"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/family-fun-day-activities.jpg"
-                      alt="Family fun day activities"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-[3/4] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/holiday-performance-show.jpg"
-                      alt="Holiday performance show"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  {/* Duplicate set for seamless loop */}
-                  <div className="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/school-event-celebration.jpg"
-                      alt="School event celebration"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/family-fun-day-activities.jpg"
-                      alt="Family fun day activities"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-[3/4] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/holiday-performance-show.jpg"
-                      alt="Holiday performance show"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              {/* Right Column - Moving Up */}
-              <div className="relative">
-                <div className="animate-scroll-up space-y-4">
-                  {/* First set of images */}
-                  <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/outdoor-field-day-games.jpg"
-                      alt="Outdoor field day games"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/parent-teacher-conference.png"
-                      alt="Parent teacher conference"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-[3/4] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/graduation-ceremony.png"
-                      alt="Graduation ceremony celebration"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/community-fundraising-event.jpg"
-                      alt="Community fundraising event"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  {/* Duplicate set for seamless loop */}
-                  <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/outdoor-field-day-games.jpg"
-                      alt="Outdoor field day games"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/parent-teacher-conference.png"
-                      alt="Parent teacher conference"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-[3/4] bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/graduation-ceremony.png"
-                      alt="Graduation ceremony celebration"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                    <img
-                      src="/community-fundraising-event.jpg"
-                      alt="Community fundraising event"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div className="max-w-2xl mx-auto text-center">
+          <div className="space-y-6">
+            <h1 className="font-ovo text-4xl md:text-5xl lg:text-6xl text-black leading-tight">
+              SCC TRADITIONS
+            </h1>
+            <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
+              Stay connected and be part of our vibrant community. Discover a
+              variety of events designed to inspire and engage everyone.
+            </p>
           </div>
         </div>
       </section>

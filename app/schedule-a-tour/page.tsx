@@ -1,8 +1,18 @@
 'use client';
 
 import { AnimatedSection } from '@/components/animated-section';
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function ScheduleATourPage() {
+  const [state, handleSubmit] = useForm('xnjbvbdz');
+  if (state.succeeded) {
+    return (
+      <div className="py-25 text-center">
+        <p>Thank you for scheduling a tour! We will get back to you soon.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-white">
       {/* Schedule Tour Form Section */}
@@ -22,7 +32,7 @@ export default function ScheduleATourPage() {
             </div>
 
             <AnimatedSection animation="slideInLeft" delay={200}>
-              <form className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label
                     htmlFor="email"
