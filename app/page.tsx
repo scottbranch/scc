@@ -29,38 +29,38 @@ export default function Home() {
     }
   > = {
     STEM: {
-      title: 'STEM',
+      title: 'Sensory & STEM Play Lab',
       description:
-        'Our STEM Learning Lab invites children to explore science, technology, engineering, and math through hands-on discovery. Using age-appropriate materials, children build, experiment, problem-solve, and ask questions that spark curiosity and critical thinking. This lab encourages creativity, teamwork, and early engineering skills in a playful, engaging environment.',
-      image: '/images/stem.jpg',
+        'Our sensory and STEM stations invite children to build, stack, pour, connect, and create. With rotating hands-on materials and open-ended challenges, students design structures, explore patterns, and experiment through playful problem-solving. Children strengthen fine motor skills, coordination, and early math concepts while using their imagination. This lab encourages creativity, persistence, teamwork, and confidence in a fun, engaging environment.',
+      image: '/images/learning-labs/stem.jpg',
       alt: 'Children doing STEM activities with building blocks and science experiments',
     },
     'ART LAB': {
-      title: 'ART LAB',
+      title: 'Adventure & Sand Exploration Lab',
       description:
-        'The Art Lab is a creative space where children explore self-expression through painting, drawing, sculpture, and mixed media. Process-based art experiences allow children to experiment freely while developing fine motor skills, confidence, and creativity. Every project celebrates imagination rather than perfection.',
-      image: '/images/artlab.jpg',
+        'Our large climbing structure invites children to climb, slide, jump, and challenge themselves in safe, exciting ways. This space builds strength, resilience, coordination, and confidence. In our expansive sand area, children build sandcastles, dig tunnels, create roads, design landscapes, and let their imaginations run free. With sand and water tables, they scoop, pour, construct, and collaborate as they bring their ideas to life. Endless sand play encourages creativity, storytelling, cooperation, and joyful hands-on exploration.',
+      image: '/images/learning-labs/sandbox.jpg',
       alt: 'Children painting and doing art activities in colorful classroom',
     },
     'GARDENING AND SENSORY LAB': {
-      title: 'GARDENING AND SENSORY LAB',
+      title: 'Nature & Garden Exploration Lab',
       description:
-        'Our Gardening and Sensory Lab connects children to nature through planting, digging, watering, and hands-on sensory exploration. Children explore textures, water play, and natural materials while developing responsibility, curiosity, and sensory awareness. This calming space supports exploration through touch, movement, and observation.',
-      image: '/images/gardening.jpg',
+        'Children connect with the beauty of the outdoors through our vibrant garden and nature spaces. They plant, water, observe, and care for growing things while learning about seasons, life cycles, insects, weather, and God’s creation. This lab nurtures curiosity, responsibility, and a love for nature in a peaceful, hands-on environment. Our Nature Lab also features rich water exploration and play experiences. At our water tables, children pour, splash, scoop, and measure as they freely explore movement, flow, and volume. They enjoy ice and water play, experiencing the fun of cold, melting, splashing, and creating. We rotate a variety of engaging mediums — including sand, soil, rocks, water, ice, leaves, and other natural materials — allowing children to explore textures, build, create, and use their imagination. These open-ended experiences encourage language development, creativity, cooperation, and joyful discovery.',
+      image: '/images/learning-labs/gardening.jpg',
       alt: 'Children gardening and exploring sensory activities outdoors',
     },
     'GROSS MOTOR SKILLS STATIONS': {
-      title: 'GROSS MOTOR SKILLS STATIONS',
+      title: 'Gross Motor & Movement Lab',
       description:
-        'Our Gross Motor Skills Stations support physical development through climbing, jumping, balancing, riding trikes, and large-body movement activities. These stations build strength, coordination, and confidence while encouraging teamwork and safe risk-taking in an active outdoor environment.',
-      image: '/images/motorskills.jpg',
+        'Healthy bodies support healthy minds. In our Gross Motor Lab, children ride bikes, climb, jump, hop, balance, and move with purpose. These activities build strength, coordination, and body awareness while giving children space to develop confidence and independence. Through active play, students practice taking turns, encouraging friends, and celebrating accomplishments together.',
+      image: '/images/learning-labs/motorskills.jpg',
       alt: 'Children doing physical activities and gross motor skills exercises',
     },
     'DRAMATIC PLAYHOUSE': {
-      title: 'DRAMATIC PLAYHOUSE',
+      title: 'Life-Size Dramatic Play Village',
       description:
-        'Our life-size dramatic playhouse encourages imaginative role play, social interaction, and language development. Children act out real-life scenarios, practice cooperation, and build social-emotional skills through pretend play that feels exciting, meaningful, and fun',
-      image: '/images/playhouse.jpg',
+        'Imagination comes to life in our beautiful, life-size dramatic play village. With rotating themes like a Pizza Shop, Starbucks Café, Trader Joe’s Market, and more, children step into real-world roles and create their own stories. They take orders, prepare food, shop, serve customers, and collaborate with friends — naturally building communication skills, social confidence, creativity, and early literacy and math understanding through play.',
+      image: '/images/new/playhouse-new.jpg',
       alt: 'Child playing with wooden drum and colorful building blocks in classroom',
     },
   };
@@ -389,8 +389,15 @@ export default function Home() {
             </div>
 
             <AnimatedSection animation="scaleIn" delay={200}>
-              <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-                <div>
+              <div className="columns-2 lg:columns-3 gap-4 space-y-4">
+                <div className="break-inside-avoid mb-4">
+                  <img
+                    src="/images/new/staff1.jpg"
+                    alt="Teacher with two young children in classroom"
+                    className="w-full rounded-lg"
+                  />
+                </div>
+                <div className="break-inside-avoid mb-4">
                   <img
                     src="/staff/staff1.jpg"
                     alt="Teacher with two young children in classroom"
@@ -398,7 +405,7 @@ export default function Home() {
                   />
                 </div>
 
-                <div>
+                <div className="break-inside-avoid mb-4">
                   <img
                     src="/staff/staff2.jpg"
                     alt="Teacher with two young children in classroom"
@@ -406,7 +413,7 @@ export default function Home() {
                   />
                 </div>
 
-                <div>
+                <div className="break-inside-avoid mb-4">
                   <img
                     src="/staff/staff3.jpg"
                     alt="Blonde teacher with sunglasses outdoors with two young children"
@@ -414,15 +421,22 @@ export default function Home() {
                   />
                 </div>
 
-                <div>
+                <div className="break-inside-avoid mb-4">
                   <img
                     src="/staff/staff5.jpg"
                     alt="Blonde teacher with sunglasses outdoors with two young children"
                     className="w-full rounded-lg"
                   />
                 </div>
+                <div className="break-inside-avoid mb-4">
+                  <img
+                    src="/images/new/staff2.jpg"
+                    alt="Teacher with two young children in classroom"
+                    className="w-full rounded-lg"
+                  />
+                </div>
 
-                <div>
+                <div className="break-inside-avoid mb-4">
                   <img
                     src="/staff/staff6.jpg"
                     alt="Teacher with two young children in classroom"
@@ -430,7 +444,7 @@ export default function Home() {
                   />
                 </div>
 
-                <div>
+                <div className="break-inside-avoid mb-4">
                   <img
                     src="/staff/staff7.jpg"
                     alt="Teacher with two young children in classroom"
@@ -658,14 +672,15 @@ export default function Home() {
                 OUTDOOR LEARNING LABS
               </h2>
               <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
-                The SCC experience offers students learning opportunities in
-                dramatic play, language arts, fine motor writing programs such
-                as Handwriting Without Tears, life and physical science lessons
-                and experiments, a learning garden, an introduction to Spanish,
-                math, art masters, gross motor/physical education programs,
-                music & movement, chapel and fruit of the spirit...and so much
-                more. Call us to schedule a tour and see what makes SCC unique
-                and very special.
+                At Surf City Christian Preschool, our outdoor environment is
+                more than a playground — it is an extension of our classroom.
+                Our Outdoor Learning Labs are thoughtfully designed stations
+                where children rotate in small groups to explore, create,
+                imagine, move, and connect with the world around them.
+                <br />
+                <br />
+                Each space invites joyful discovery, meaningful play, and
+                hands-on learning in a beautiful, engaging setting.
               </p>
             </div>
           </div>
