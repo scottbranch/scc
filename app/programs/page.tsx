@@ -13,39 +13,90 @@ export default function StarFishProgramPage() {
             </h2>
 
             <AnimatedSection animation="scaleIn" delay={100}>
-              <div className="space-y-5">
+              <div className="space-y-5 mb-10">
                 <h3 className="font-ovo text-2xl font-semibold text-black mb-5">
-                  Star Fish and Seashell Program
+                  Guppy Program
                 </h3>
-                <div>
-                  <h3 className="font-ovo text-xl font-normal text-black">
-                    Half Day
-                  </h3>
-                  <p className="font-zen-maru text-gray-700 text-lg">
-                    8am-11:30am
-                  </p>
-                </div>
-
                 <div>
                   <h3 className="font-ovo text-xl font-normal text-black">
                     Full Day
                   </h3>
                   <p className="font-zen-maru text-gray-700 text-lg">
-                    7:30am-5:30pm
+                    7am-5:30pm
                   </p>
                 </div>
                 <p className="max-w-[600px] m-auto">
-                  Children must be at least 2 years old to enter this program.
-                  Potty training is offered.
+                  <i>
+                    For children <b>18 months to 36 months.</b>
+                  </i>
+                  <br />
+                  The guppy program is a specialized class thoughtfully designed
+                  for children between 18 and 36 months of age, providing a
+                  nurturing and stimulating environment for our youngest
+                  learners. The curriculum for the Guppy Program will focus on
+                  fostering crucial developmental milestones. This includes
+                  enhancing gross motor skills such as balance and coordination,
+                  encouraging early language acquisition, and supporting vital
+                  social-emotional growth through guided play and interaction.
+                  Our experienced teacher is dedicated to creating a warm,
+                  engaging space where each child can explore, learn, and grow
+                  at their own pace.
+                </p>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection animation="scaleIn" delay={100}>
+              <div className="space-y-5 mb-10">
+                <h3 className="font-ovo text-2xl font-semibold text-black mb-5">
+                  Star Fish Program
+                </h3>
+                <div>
+                  <h3 className="font-ovo text-xl font-normal text-black">
+                    Full Day
+                  </h3>
+                  <p className="font-zen-maru text-gray-700 text-lg">
+                    7am-5:30pm
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-ovo text-xl font-normal text-black">
+                    Half Day
+                  </h3>
+                  <p className="font-zen-maru text-gray-700 text-lg">
+                    8:00am-11:30am
+                  </p>
+                </div>
+                <p className="max-w-[600px] m-auto">
+                  <i>
+                    For children <b>2 years and older.</b> Potty training
+                    available.
+                  </i>
+                  <br />
+                  The Star Fish Program introduces young children to early
+                  learning in a nurturing, play-based environment. Our
+                  experienced staff fosters growth through artistic exploration,
+                  literature, and Bible stories. Children develop fine and gross
+                  motor skills, learn shapes, colors, letters, numbers, and
+                  engage in cooperative play. Positive
                 </p>
               </div>
             </AnimatedSection>
 
             <AnimatedSection animation="scaleIn" delay={200}>
-              <div className="space-y-5 mt-24">
+              <div className="space-y-5">
                 <h3 className="font-ovo text-2xl font-semibold text-black mb-5">
-                  Sea Turtle and Sea Otter Program
+                  Sea Turtle Program
                 </h3>
+                <div>
+                  <h3 className="font-ovo text-xl font-normal text-black">
+                    Full Day
+                  </h3>
+                  <p className="font-zen-maru text-gray-700 text-lg">
+                    7:00am - 5:30pm
+                  </p>
+                </div>
+
                 <div>
                   <h3 className="font-ovo text-xl font-normal text-black">
                     Half Day
@@ -54,18 +105,20 @@ export default function StarFishProgramPage() {
                     8:15am - 11:45am
                   </p>
                 </div>
-
-                <div>
-                  <h3 className="font-ovo text-xl font-normal text-black">
-                    Full Day
-                  </h3>
-                  <p className="font-zen-maru text-gray-700 text-lg">
-                    7:30am - 5:30pm
-                  </p>
-                </div>
                 <p className="max-w-[600px] m-auto">
-                  Children must be at least 2 years old to enter this program.
-                  Potty training is offered.
+                  <i>
+                    For children <b>3 years old</b> by September 1st, 2026, and
+                    potty trained.
+                  </i>
+                  <br />
+                  In the Sea Turtle Program, children develop social-emotional
+                  skills, explore personal responsibility, and build
+                  friendships. They engage in Bible stories, prayer, and
+                  learning the fruits of the spirit. Through activities like
+                  journaling, coloring, and cutting, children strengthen their
+                  literacy and math skills while cultivating a love for art,
+                  music, and God’s Word. This year sets the stage for social,
+                  emotional, and academic growth.
                 </p>
               </div>
             </AnimatedSection>
@@ -77,25 +130,35 @@ export default function StarFishProgramPage() {
                 </h3>
                 <div>
                   <h3 className="font-ovo text-xl font-normal text-black">
-                    Half Day
+                    Full Day
                   </h3>
                   <p className="font-zen-maru text-gray-700 text-lg">
-                    8:30am - 12:00pm
+                    7:00am - 5:30pm
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-ovo text-xl font-normal text-black">
-                    Full Day
+                    Half Day
                   </h3>
                   <p className="font-zen-maru text-gray-700 text-lg">
-                    7:30am - 5:30pm
+                    8:30am - 1:00pm (lunch brought from home)
                   </p>
                 </div>
                 <p className="max-w-[600px] m-auto">
-                  Children must be 4 years old before September 1st, 2020 and
-                  potty trained. This is our Pre-K Program, and these children
-                  are planning on attending Kindergarten in the Fall of 2021.
+                  <i>
+                    For children <b>4 years old</b> by September 1st, 2026, and
+                    potty trained.
+                  </i>
+                  <br />
+                  The Surfers Program prepares children for Kindergarten by
+                  mastering letters, numbers, and early literacy skills through
+                  Alpha Friends Phonics and Tara West Literacy. Children also
+                  learn Bible verses, word families, and journal writing. Daily
+                  chapel and spiritual teachings provide a strong foundation in
+                  faith. This year focuses on developing positive choices,
+                  academic readiness, and spiritual growth in a loving,
+                  Christ-centered environment.
                 </p>
               </div>
             </AnimatedSection>
@@ -103,28 +166,38 @@ export default function StarFishProgramPage() {
             <AnimatedSection animation="scaleIn" delay={400}>
               <div className="space-y-5 mt-24">
                 <h3 className="font-ovo text-2xl font-semibold text-black mb-5">
-                  Kindergarten Sailors Program
+                  Sailors Program
                 </h3>
                 <div>
+                  <h3 className="font-ovo text-xl font-normal text-black">
+                    Full Day
+                  </h3>
                   <p className="font-zen-maru text-gray-700 text-lg">
-                    8:00am - 3:00pm{' '}
+                    7:00am - 5:30pm
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-ovo text-xl font-normal text-black">
-                    Extended Day option
+                    Half Day
                   </h3>
                   <p className="font-zen-maru text-gray-700 text-lg">
-                    7:30am - 5:30pm
+                    8:30am - 1:00pm (lunch brought from home)
                   </p>
                 </div>
                 <p className="max-w-[600px] m-auto">
-                  Children must be 5 years old before September 1st. Curriculum
-                  will be based upon CA State Standards & Common Core
-                  Curriculum, and taught by a qualified, loving, experienced
-                  teacher. If you are interested in our SCC Kindergarten, please
-                  contact our office for information about enrollment.
+                  <i>
+                    For children <b>5 years old</b> by September 1st, 2026
+                    (exceptions may be made with Ms. Tami).
+                  </i>
+                  The Sailors Program is a premier academic preparatory program
+                  using the Houghton Mifflin Common Core Curriculum and Tara
+                  West Programs. Children become confident, independent learners
+                  as they develop strong reading and writing skills, with a
+                  focus on guided reading, phonics, and STEAM. Christ-centered
+                  lessons, daily chapel, and spiritual teachings are integral to
+                  this program, which prepare children for elementary school
+                  both academically and spiritually.
                 </p>
               </div>
             </AnimatedSection>
