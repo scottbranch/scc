@@ -22,20 +22,27 @@ export default function StarFishProgramPage() {
             {/* Left Column - Content */}
             <div className="space-y-6">
               <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black leading-tight">
-                Guppies Program
+                Guppy Program
               </h2>
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
-                  <b>Toddlers | 18–36 Months</b>
+                  <i>
+                    For children <b>18 months to 36 months.</b>
+                  </i>
                 </p>
                 <p>
-                  The Guppies Program is designed for our youngest learners,
-                  providing a nurturing, faith-filled environment for toddlers
-                  ages 18–36 months. Through consistent routines, gentle
-                  guidance, and hands-on exploration, children develop trust,
-                  early language skills, and social awareness while experiencing
-                  God’s love in a safe and supportive setting.
+                  The guppy program is a specialized class thoughtfully designed
+                  for children between 18 and 36 months of age, providing a
+                  nurturing and stimulating environment for our youngest
+                  learners. The curriculum for the Guppy Program will focus on
+                  fostering crucial developmental milestones. This includes
+                  enhancing gross motor skills such as balance and coordination,
+                  encouraging early language acquisition, and supporting vital
+                  social-emotional growth through guided play and interaction.
+                  Our experienced teacher is dedicated to creating a warm,
+                  engaging space where each child can explore, learn, and grow
+                  at their own pace.
                 </p>
               </div>
 

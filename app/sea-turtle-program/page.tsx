@@ -16,16 +16,20 @@ export default function SeaTurtleProgramPage() {
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
-                  <b>Preschool | 3–4 Years</b>
+                  <i>
+                    For children <b>3 years old</b> by September 1st, 2026, and
+                    potty trained.
+                  </i>
                 </p>
                 <p>
-                  The Sea Turtles Program provides a balanced preschool
-                  experience for children ages 3–4 years old, focusing on
-                  social-emotional growth, early academics, and creative
-                  exploration. Children develop confidence, problem-solving
-                  skills, and positive peer relationships while learning
-                  biblical values such as kindness, gratitude, and
-                  responsibility.
+                  In the Sea Turtle Program, children develop social-emotional
+                  skills, explore personal responsibility, and build
+                  friendships. They engage in Bible stories, prayer, and
+                  learning the fruits of the spirit. Through activities like
+                  journaling, coloring, and cutting, children strengthen their
+                  literacy and math skills while cultivating a love for art,
+                  music, and God’s Word. This year sets the stage for social,
+                  emotional, and academic growth.
                 </p>
               </div>
 

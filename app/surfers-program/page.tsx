@@ -14,19 +14,21 @@ export default function StarFishProgramPage() {
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
-                  <b>
-                    Transitional Kindergarten (TK) | 4 Years Old Before
-                    September 1
-                  </b>
+                  <i>
+                    For children <b>4 years old</b> by September 1st, 2026, and
+                    potty trained.
+                  </i>
                 </p>
 
                 <p>
-                  The Surfers Program is our Transitional Kindergarten classroom
-                  for children who are four years old by September 1. This
-                  program focuses on academic, social, and emotional readiness
-                  for kindergarten, combining structured learning with hands-on
-                  experiences while reinforcing Christian character, leadership,
-                  and responsibility.
+                  The Surfers Program prepares children for Kindergarten by
+                  mastering letters, numbers, and early literacy skills through
+                  Alpha Friends Phonics and Tara West Literacy. Children also
+                  learn Bible verses, word families, and journal writing. Daily
+                  chapel and spiritual teachings provide a strong foundation in
+                  faith. This year focuses on developing positive choices,
+                  academic readiness, and spiritual growth in a loving,
+                  Christ-centered environment.
                 </p>
               </div>
             </div>
@@ -51,7 +53,7 @@ export default function StarFishProgramPage() {
                 Half Day
               </h3>
               <p className="font-zen-maru text-gray-700 text-lg">
-                8:30am-1:00pm (bring lunch and lunch with friends)
+                8:30am-1:00pm (bring lunch from home)
               </p>
             </div>
 
@@ -60,7 +62,7 @@ export default function StarFishProgramPage() {
                 Full Day
               </h3>
               <p className="font-zen-maru text-gray-700 text-lg">
-                7:30am-5:30pm
+                7:00am-5:30pm
               </p>
             </div>
           </div>

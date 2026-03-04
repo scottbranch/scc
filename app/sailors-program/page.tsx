@@ -14,17 +14,20 @@ export default function StarFishProgramPage() {
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
-                  <b>
-                    TK / Kindergarten Combo | 4 Years Old Before September 1
-                  </b>
+                  <i>
+                    For children <b>5 years old</b> by September 1st, 2026
+                    (exceptions may be made with Ms. Tami).
+                  </i>
                 </p>
                 <p>
-                  The Sailors Program is a TK/Kindergarten combination class
-                  designed for children who are four years old by September 1
-                  and ready for advanced academic and developmental challenges.
-                  This program emphasizes kindergarten readiness, independence,
-                  and leadership while encouraging children to grow spiritually,
-                  academically, and socially in a Christ-centered environment.
+                  The Sailors Program is a premier academic preparatory program
+                  using the Houghton Mifflin Common Core Curriculum and Tara
+                  West Programs. Children become confident, independent learners
+                  as they develop strong reading and writing skills, with a
+                  focus on guided reading, phonics, and STEAM. Christ-centered
+                  lessons, daily chapel, and spiritual teachings are integral to
+                  this program, which prepare children for elementary school
+                  both academically and spiritually.
                 </p>
               </div>
 
@@ -47,13 +50,22 @@ export default function StarFishProgramPage() {
       <section className="py-16 px-6 bg-[#e5f0f7]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-ovo text-3xl lg:text-4xl font-normal text-black mb-12 uppercase">
-            Our Sailor Program Hours​
+            Our Sailors Program Hours​
           </h2>
 
           <div className="space-y-8">
             <div>
               <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-2">
-                School Day
+                Half Day
+              </h3>
+              <p className="font-zen-maru text-gray-700 text-lg">
+                8:30am-1:00pm (bring lunch from home)
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-ovo text-xl lg:text-2xl font-normal text-black mb-2">
+                Full Day
               </h3>
               <p className="font-zen-maru text-gray-700 text-lg">
                 7:00am-5:30pm

@@ -17,16 +17,21 @@ export default function StarFishProgramPage() {
 
               <div className="space-y-4 font-zen-maru text-gray-700 leading-relaxed">
                 <p>
-                  <b>Young Preschool | 24 Months – 3+ Years</b>
+                  <i>
+                    For children <b>2 years and older.</b> Potty training
+                    available.
+                  </i>
                 </p>
 
                 <p>
-                  The Starfish Program supports children ages 24 months through
-                  early preschool years as they transition into a more
-                  structured learning environment. Children are encouraged to
-                  explore, build independence, and develop early academic and
-                  social skills while learning kindness, cooperation, and
-                  respect rooted in Christian values.
+                  The Star Fish Program introduces young children to early
+                  learning in a nurturing, play-based environment. Our
+                  experienced staff fosters growth through artistic exploration,
+                  literature, and Bible stories. Children develop fine and gross
+                  motor skills, learn shapes, colors, letters, numbers, and
+                  engage in cooperative play. Positive behavior is encouraged,
+                  and constructive discipline methods are used. This program
+                  lays the foundation for a lifelong love of learning.
                 </p>
               </div>
 
