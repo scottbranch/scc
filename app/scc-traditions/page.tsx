@@ -55,61 +55,115 @@ export default function EventsPage() {
                 EVENTS
               </h2>
               <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
-                Join us for these special events throughout the year. From
-                educational workshops to fun family activities, there's
-                something for everyone in our community.
+                Join us for these special events throughout the year.
               </p>
             </div>
 
             <div className="space-y-8">
-              {/* Event 1 */}
-              <div className="flex gap-6 items-start border-b border-gray-200 pb-8">
-                <div className="flex-1">
-                  <h3 className="font-ovo text-2xl text-black mb-2">
-                    SPRING FAMILY FUN DAY
-                  </h3>
-                  <p className="font-zen-maru-gothic text-gray-600 mb-2">
-                    School Playground
-                  </p>
-                  <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                    Join us for a day of outdoor activities, games, and
-                    community bonding. Enjoy face painting, bounce houses, and
-                    delicious food while connecting with other families.
+              {/* Event List */}
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Back to School Nights
                   </p>
                 </div>
-              </div>
 
-              {/* Event 2 */}
-              <div className="flex gap-6 items-start border-b border-gray-200 pb-8">
-                <div className="flex-1">
-                  <h3 className="font-ovo text-2xl text-black mb-2">
-                    PARENT EDUCATION WORKSHOP
-                  </h3>
-                  <p className="font-zen-maru-gothic text-gray-600 mb-2">
-                    Main Classroom
-                  </p>
-                  <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                    Learn effective parenting strategies and child development
-                    insights from our experienced educators. Light refreshments
-                    will be provided during this informative session.
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Grandparents Day
                   </p>
                 </div>
-              </div>
 
-              {/* Event 3 */}
-              <div className="flex gap-6 items-start">
-                <div className="flex-1">
-                  <h3 className="font-ovo text-2xl text-black mb-2">
-                    EASTER CELEBRATION
-                  </h3>
-                  <p className="font-zen-maru-gothic text-gray-600 mb-2">
-                    Chapel & Courtyard
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Santa Visits
                   </p>
-                  <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
-                    Celebrate Easter with our school community through special
-                    chapel service, egg hunt activities, and festive crafts. A
-                    wonderful opportunity for spiritual reflection and family
-                    joy.
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Gingerbread House Days
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Christmas Programs
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Halloween Costume Parades
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Community Helper Presentations
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Mother's Day Tea
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Father's Day Dads and Donuts
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Easter Egg Hunts
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Open House Nights
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Harvest Festival with Petting Zoo
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    St. Patrick's Day Shenanigans
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Earth Day Butterfly Park Field Trips with Ms. Sharon
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-[#7eb5d9] rounded-full mt-2"></div>
+                  <p className="font-zen-maru-gothic text-lg text-gray-700">
+                    Music and Movement and Science with Ms. Sharon
                   </p>
                 </div>
               </div>
