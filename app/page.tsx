@@ -735,6 +735,69 @@ export default function Home() {
         </section>
       </AnimatedSection>
 
+      <AnimatedSection animation="slideInRight">
+        <section className="py-16 lg:py-24">
+          <div className="grid max-w-7xl mx-auto lg:grid-cols-2 gap-12 lg:gap-16 items-start px-5">
+            {/* Left Image */}
+            <div className="relative">
+              <img
+                src="/images/owners.jpg"
+                alt="Message from the owners"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+
+            {/* Right Content */}
+            <div className="space-y-8">
+              <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
+                <b>From the Owners – Tami & Don Hopkins</b>
+                <br />
+                Welcome to Surf City Christian Preschool. We are Tami and Don
+                Hopkins, and for the past 20 years it has been our honor and
+                calling to serve families in our community through early
+                childhood education. As parents of four children ourselves,
+                family has always been at the center of everything we do. Our
+                faith guides our mission, and we believe in putting Christ first
+                in our school, our relationships, and the way we care for every
+                child and family who walks through our doors. We strive to treat
+                every family we meet like part of our own. Before entering the
+                preschool world, Tami spent many years as an elementary school
+                teacher and brings 28 years of experience in the education
+                field. Tami serves as our Director of SCC and Don proudly serves
+                as a Long Beach firefighter and also oversees the financial side
+                of Surf City Christian as our CFO. Together, we share a passion
+                for building a place where children are loved, families are
+                supported, and excellence in education and care is the standard.
+              </p>
+
+              <p className="font-zen-maru-gothic text-lg text-gray-700 leading-relaxed">
+                Over the past two decades, God has created something truly
+                special here at Surf City Christian. What began as a preschool
+                has grown into a beautiful community of families, teachers, and
+                friendships that we are incredibly grateful to be part of. Our
+                staff is not just a team—they are family. Many of the
+                relationships we cherish most in life were formed right here
+                within the SCC community. We believe what sets Surf City
+                Christian apart is the heart behind everything we do. We are
+                committed to providing exceptional customer service for our
+                families and delivering elite early education and care that
+                nurtures the whole child—academically, socially, and
+                spiritually. Our own youngest sons were raised here at the
+                preschool, and watching children grow, learn, and thrive has
+                been one of the greatest blessings of our lives. Surf City
+                Christian truly is a magical place, and it is our hope that when
+                you join our community, you will feel that same warmth, joy, and
+                sense of belonging. We are deeply thankful for the last 20 years
+                and excited to see where God leads us in the future. With
+                gratitude,
+                <br />
+                <b>Tami & Don Hopkins</b>
+              </p>
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
+
       <AnimatedSection animation="slideInLeft">
         <section className="py-16 lg:py-24 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
