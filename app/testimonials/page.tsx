@@ -43,6 +43,11 @@ export default function TestimonialsPage() {
               <AnimatedSection animation="scaleIn" delay={100}>
                 <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
                   <blockquote className="space-y-6">
+                    <img
+                      src="/images/duel-family.jpg"
+                      alt="Deuel Family"
+                      className="w-full lg:w-1/4 h-64 object-cover rounded-lg mb-6"
+                    />
                     <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
                       We have been part of the SCC family since July 2023 when
                       our daughter started at two years old. From the moment we
@@ -134,6 +139,59 @@ export default function TestimonialsPage() {
                     <div className="space-y-1">
                       <p className="font-zen-maru-gothic font-semibold text-black">
                         - The Evans Family
+                      </p>
+                    </div>
+                  </blockquote>
+                </div>
+              </AnimatedSection>
+
+              {/* Testimonial 3 */}
+              <AnimatedSection animation="scaleIn" delay={100}>
+                <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
+                  <blockquote className="space-y-6">
+                    <p className="font-zen-maru-gothic text-gray-700 leading-relaxed">
+                      I recommend at the absolute highest levels Surf City
+                      Christian PreSchool. The owner Ms Tami has done a
+                      remarkable job building and developing such a warm,
+                      inviting and safe school for young children and their
+                      families.
+                      <br />
+                      <br />
+                      She has taken a small corner of Huntington Beach and built
+                      a charming pre-school with incredible teachers that become
+                      part of your family. My son Liam who is 3 years old is in
+                      his 2nd year at Surf City Christian and my youngest son
+                      Brady just enrolled in the new 18 month old program. From
+                      their very first day of school, my wife and I noticed a
+                      remarkable improvement in both our son's demeanor,
+                      temperament and confidence, especially Brady.
+                      <br />
+                      <br />
+                      The learning environment is based on faith, fun, dynamic
+                      lessons, interactive teaching, arts and crafts, Spanish as
+                      a 2nd language and so much more. We have been amazed at
+                      how advanced Liam has become in only his 2nd year and it's
+                      all due to Surf City Christian preschool, the teachers and
+                      the environment Ms Tami creates.
+                      <br />
+                      <br />
+                      The bond you create with the teachers and Ms Tami is so
+                      familial because they are raising your small children with
+                      you while providing an excellent well rounded education.
+                      You feel so safe and secure when you drop off your
+                      children because you know the teachers and Ms Tami view
+                      and treat each child as if they were their own.
+                      <br />
+                      <br />I cannot recommend Surf City Christian enough and I
+                      implore parents of young children to take a tour to see
+                      for themselves.
+                    </p>
+                    <div className="space-y-1">
+                      <p className="font-zen-maru-gothic font-semibold text-black">
+                        - Casey McKeon
+                      </p>
+                      <p className="font-zen-maru-gothic text-sm text-gray-600">
+                        Mayor of Huntington Beach
                       </p>
                     </div>
                   </blockquote>
