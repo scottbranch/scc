@@ -20,16 +20,16 @@ function GlobalFooter() {
           {/* Navigation Links */}
           <nav className="flex flex-wrap justify-center gap-8 mb-8">
             <Link
-              href="/scc-staff"
-              className="font-zen-maru-gothic text-gray-700 hover:text-[#7eb5d9] transition-colors"
-            >
-              SCC Staff
-            </Link>
-            <Link
               href="/programs"
               className="font-zen-maru-gothic text-gray-700 hover:text-[#7eb5d9] transition-colors"
             >
               Programs
+            </Link>
+            <Link
+              href="/scc-staff"
+              className="font-zen-maru-gothic text-gray-700 hover:text-[#7eb5d9] transition-colors"
+            >
+              SCC Staff
             </Link>
             <Link
               href="/scc-experience"
@@ -44,16 +44,16 @@ function GlobalFooter() {
               Chapel
             </Link>
             <Link
-              href="/events"
-              className="font-zen-maru-gothic text-gray-700 hover:text-[#7eb5d9] transition-colors"
-            >
-              Events
-            </Link>
-            <Link
               href="/contact"
               className="font-zen-maru-gothic text-gray-700 hover:text-[#7eb5d9] transition-colors"
             >
               Contact Us
+            </Link>
+            <Link
+              href="/schedule-a-tour"
+              className="font-zen-maru-gothic text-gray-700 hover:text-[#7eb5d9] transition-colors"
+            >
+              Schedule a tour
             </Link>
           </nav>
         </div>
@@ -64,7 +64,8 @@ function GlobalFooter() {
         {/* Copyright */}
         <div className="text-center">
           <p className="font-zen-maru-gothic text-sm text-gray-600">
-            © 2025 Surf City Christian. All rights reserved.
+            © {new Date().getFullYear()} Surf City Christian. All rights
+            reserved.
           </p>
         </div>
       </div>
