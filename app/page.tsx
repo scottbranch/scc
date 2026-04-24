@@ -741,7 +741,7 @@ export default function Home() {
             {/* Left Image */}
             <div className="relative">
               <img
-                src="/images/owners.jpg"
+                src="/images/headshots/tami-don.jpg"
                 alt="Message from the owners"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
