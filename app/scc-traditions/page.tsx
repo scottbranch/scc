@@ -32,6 +32,118 @@ export default function EventsPage() {
         }
       `}</style>
 
+      {/* Continuous Image Carousel */}
+      <section className="h-[400px] overflow-hidden mb-16">
+        <div className="flex gap-4 h-full">
+          {/* Column 1 - Scrolling Down */}
+          <div className="flex-1 overflow-hidden">
+            <div className="animate-scroll-down space-y-4">
+              <img
+                src="/images/new/easter.jpg"
+                alt="Easter Celebration"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/new/halloween.jpg"
+                alt="Halloween Parade"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/new/princess.jpg"
+                alt="Dress Up Day"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/new/stem.jpeg"
+                alt="STEM Activities"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              {/* Duplicate for continuous scroll */}
+              <img
+                src="/images/new/easter.jpg"
+                alt="Easter Celebration"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/new/halloween.jpg"
+                alt="Halloween Parade"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+            </div>
+          </div>
+
+          {/* Column 2 - Scrolling Up */}
+          <div className="flex-1 overflow-hidden">
+            <div className="animate-scroll-up space-y-4">
+              <img
+                src="/images/new/easter2.jpg"
+                alt="Easter Activities"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/new/dramatic-play.jpg"
+                alt="Dramatic Play"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/new/playhouse-new.jpg"
+                alt="Playhouse Fun"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/gardening.jpg"
+                alt="Gardening Activities"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              {/* Duplicate for continuous scroll */}
+              <img
+                src="/images/new/easter2.jpg"
+                alt="Easter Activities"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/new/dramatic-play.jpg"
+                alt="Dramatic Play"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+            </div>
+          </div>
+
+          {/* Column 3 - Scrolling Down */}
+          <div className="flex-1 overflow-hidden hidden md:block">
+            <div className="animate-scroll-down space-y-4">
+              <img
+                src="/images/artlab.jpg"
+                alt="Art Lab"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/motorskills.jpg"
+                alt="Motor Skills"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/playhouse.jpg"
+                alt="Playhouse"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+
+              {/* Duplicate for continuous scroll */}
+              <img
+                src="/images/artlab.jpg"
+                alt="Art Lab"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+              <img
+                src="/images/motorskills.jpg"
+                alt="Motor Skills"
+                className="w-full h-64 object-cover rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Events Hero */}
       <section className="py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
