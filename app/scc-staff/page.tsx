@@ -401,6 +401,15 @@ export default function SccStaffPage() {
               <div className="space-y-4">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
+                    <div className="flex-shrink-0">
+                      <Image
+                        src="/images/headshots/julie.jpg"
+                        alt="Ms. Julie"
+                        width={150}
+                        height={150}
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
                     <div className="flex-1">
                       <h3 className="font-zen-maru-gothic text-xl font-semibold text-black mb-2">
                         Ms. Julie
@@ -414,6 +423,15 @@ export default function SccStaffPage() {
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <div className="flex flex-col sm:flex-row gap-6 items-start">
+                    <div className="flex-shrink-0">
+                      <Image
+                        src="/images/headshots/kaili.jpg"
+                        alt="Ms. Kaili"
+                        width={150}
+                        height={150}
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
                     <div className="flex-1">
                       <h3 className="font-zen-maru-gothic text-xl font-semibold text-black mb-2">
                         Ms. Kaili
